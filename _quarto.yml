@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "ENVSOCTY 2GI3"
+  sidebar:
+    background: primary
+    pinned: true
+    align: center
+    style: docked
+    contents:
+      - href: index.qmd
+        text: Home
+      - href: materials.qmd
+        text: Materials
+
+format:
+  html:
+    theme: lux
+    toc: false
+
+execute:
+  freeze: auto

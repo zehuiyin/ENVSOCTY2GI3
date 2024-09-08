@@ -1,0 +1,9 @@
+---
+title: "Materials"
+---
+
+| Section                             | Slides | PDF |
+|-------------------------------------|---------|--------|
+| Introduction                        | [HTML](./intro/index.html) | [PDF](./intro/Zehui Yin Introduction.pdf) |
+| How to (un)zip a file?              | HTML | PDF |
+| How to make a portable GIS project? | HTML | PDF |
