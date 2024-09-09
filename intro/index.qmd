@@ -1,0 +1,27 @@
+---
+format: 
+  revealjs:
+    pagetitle: "Zehui Yin Introduction"
+    menu: false
+include-in-header:
+  - text: |
+      <link rel = "icon" href = "https://zehuiyin.github.io/images/yin_icon.svg" />
+---
+
+##
+
+<div style="text-align: center;">
+  <b style="font-size: 68px;">Zehui Yin</b>
+  <br>
+  First-year PhD Student in Geography at SEES
+</div>
+
+- **Email:** [yinz39@mcmaster.ca](mailto:yinz39@mcmaster.ca)
+<div style="font-size: 30px;">
+  - Please use your McMaster email address.
+  - Please put the course code *ENVSOCTY 2GI3* in the subject line.
+  - Please include your name and student number in the body of the email.
+  - I will try to reply within 24 hours (please expect longer delays during weekends/holidays).
+</div>
+- **Personal Website:** [zehuiyin.github.io](https://zehuiyin.github.io/)
+- **Research Interests:** Spatial Analysis, Transportation, Travel Behaviour, Public Transit, Shared Mobility
