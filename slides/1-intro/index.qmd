@@ -3,9 +3,7 @@ format:
   revealjs:
     pagetitle: "Zehui Yin Introduction"
     menu: false
-include-in-header:
-  - text: |
-      <link rel = "icon" href = "https://zehuiyin.github.io/images/yin_icon.svg" />
+    footer: "2024 Zehui Yin"
 ---
 
 ##

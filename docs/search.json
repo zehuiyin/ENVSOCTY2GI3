@@ -1,13 +1,45 @@
 [
   {
-    "objectID": "materials.html",
-    "href": "materials.html",
-    "title": "Materials",
+    "objectID": "slides/3-portable-gis/index.html#how-to-create-a-project-in-arcgis-pro",
+    "href": "slides/3-portable-gis/index.html#how-to-create-a-project-in-arcgis-pro",
+    "title": "ENVSOCTY 2GI3",
+    "section": "How to create a project in ArcGIS Pro",
+    "text": "How to create a project in ArcGIS Pro\n\n\n\n\n\n\n\n\n\nClick the Map tab below the New Project heading.\nSet a name and choose a location for the project, then click OK.\nA new folder will be created."
+  },
+  {
+    "objectID": "slides/3-portable-gis/index.html#how-to-open-a-project-in-arcgis-pro",
+    "href": "slides/3-portable-gis/index.html#how-to-open-a-project-in-arcgis-pro",
+    "title": "ENVSOCTY 2GI3",
+    "section": "How to open a project in ArcGIS Pro",
+    "text": "How to open a project in ArcGIS Pro\n\n\n\n\nDouble-click to open the new project folder.\nDouble-click the file with the .aprx extension.\nThis will open ArcGIS Pro."
+  },
+  {
+    "objectID": "slides/3-portable-gis/index.html#how-to-transfer-project-across-computers",
+    "href": "slides/3-portable-gis/index.html#how-to-transfer-project-across-computers",
+    "title": "ENVSOCTY 2GI3",
+    "section": "How to transfer project across computers",
+    "text": "How to transfer project across computers\n\nEnsure you are using the same version of ArcGIS Pro on both computers.\nTransfer the entire project folder, including all its contents, to the other computer.\n\nDo not copy only the aprx file."
+  },
+  {
+    "objectID": "slides/3-portable-gis/index.html#why-need-the-whole-folder",
+    "href": "slides/3-portable-gis/index.html#why-need-the-whole-folder",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Why need the whole folder?",
+    "text": "Why need the whole folder?\n\n\n\nImportLog: A folder that contains XML files storing log messages.\nIndex: A folder that contains map thumbnails and keeps track of items stored in the project file.\n.gdb: A geodatabase where data is stored by default.\n\n\n\n.aprx: An ArcGIS project file that contains maps and print layouts.\n.atbx: The default toolbox.\nAdditional folders or files may be created when certain operations or tasks are performed in the project."
+  },
+  {
+    "objectID": "slides/3-portable-gis/index.html#reference",
+    "href": "slides/3-portable-gis/index.html#reference",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Reference",
+    "text": "Reference\n\nhttps://pro.arcgis.com/en/pro-app/latest/help/projects/what-is-a-project.htm\n\n\n\n\n2024 Zehui Yin"
+  },
+  {
+    "objectID": "slides/1-intro/index.html#section",
+    "href": "slides/1-intro/index.html#section",
+    "title": "ENVSOCTY 2GI3",
     "section": "",
-    "text": "Section\nSlides\nPDF\n\n\n\n\nIntroduction\nHTML\nPDF\n\n\nHow to (un)zip a file?\nHTML\nPDF\n\n\nHow to make a portable GIS project?\nHTML\nPDF",
-    "crumbs": [
-      "Materials"
-    ]
+    "text": "Zehui Yin  First-year PhD Student in Geography at SEES\n\n\nEmail: yinz39@mcmaster.ca\n\n\nPlease use your McMaster email address.\nPlease put the course code ENVSOCTY 2GI3 in the subject line.\nPlease include your name and student number in the body of the email.\nI will try to reply within 24 hours (please expect longer delays during weekends/holidays).\n\n\nPersonal Website: zehuiyin.github.io\nResearch Interests: Spatial Analysis, Transportation, Travel Behaviour, Public Transit, Shared Mobility\n\n\n\n\n2024 Zehui Yin"
   },
   {
     "objectID": "index.html",
@@ -20,10 +52,48 @@
     ]
   },
   {
-    "objectID": "intro/index.html#section",
-    "href": "intro/index.html#section",
-    "title": "ENVSOCTY 2GI3",
+    "objectID": "materials.html",
+    "href": "materials.html",
+    "title": "Materials",
     "section": "",
-    "text": "Zehui Yin  First-year PhD Student in Geography at SEES\n\n\nEmail: yinz39@mcmaster.ca\n\n\nPlease use your McMaster email address.\nPlease put the course code ENVSOCTY 2GI3 in the subject line.\nPlease include your name and student number in the body of the email.\nI will try to reply within 24 hours (please expect longer delays during weekends/holidays).\n\n\nPersonal Website: zehuiyin.github.io\nResearch Interests: Spatial Analysis, Transportation, Travel Behaviour, Public Transit, Shared Mobility"
+    "text": "Section\nSlides\nPDF\n\n\n\n\nIntroduction\nHTML\nPDF\n\n\nHow to (un)zip a file?\nHTML\nPDF\n\n\nHow to make a portable GIS project?\nHTML\nPDF",
+    "crumbs": [
+      "Materials"
+    ]
+  },
+  {
+    "objectID": "slides/2-zip-file/index.html#what-is-a-zip-file",
+    "href": "slides/2-zip-file/index.html#what-is-a-zip-file",
+    "title": "ENVSOCTY 2GI3",
+    "section": "What is a zip file?",
+    "text": "What is a zip file?\n\n Default icon of zip file in Windows 11\n\n\nZip is an archive file format that supports lossless data compression.\nZip file may contain one or more files or directories that may have been compressed.\nZip files generally use the file extensions .zip or .ZIP.\nThey cannot be directly used by GIS software such as ArcGIS Pro."
+  },
+  {
+    "objectID": "slides/2-zip-file/index.html#how-to-zip-a-file-method-1",
+    "href": "slides/2-zip-file/index.html#how-to-zip-a-file-method-1",
+    "title": "ENVSOCTY 2GI3",
+    "section": "How to zip a File (Method 1)",
+    "text": "How to zip a File (Method 1)\n\n\n\n\n\n\n\nRight-click on the file you want to zip such as a word document.\nSelect Compress to... and then choose ZIP File."
+  },
+  {
+    "objectID": "slides/2-zip-file/index.html#how-to-zip-a-file-method-2",
+    "href": "slides/2-zip-file/index.html#how-to-zip-a-file-method-2",
+    "title": "ENVSOCTY 2GI3",
+    "section": "How to zip a File (Method 2)",
+    "text": "How to zip a File (Method 2)\n\n\n\n\n\n\n\n\nRight-click and select New.\nChoose Compressed (zipped) Folder.\nDrag the files you want to zip into this new zipped folder."
+  },
+  {
+    "objectID": "slides/2-zip-file/index.html#how-to-unzip-a-file",
+    "href": "slides/2-zip-file/index.html#how-to-unzip-a-file",
+    "title": "ENVSOCTY 2GI3",
+    "section": "How to unzip a file",
+    "text": "How to unzip a file\n\n\n\n\n\n\n\n\n\nRight-click on the zip file.\nSelect Extract All....\nChoose the destination location (you can use the default).\nClick Extract."
+  },
+  {
+    "objectID": "slides/2-zip-file/index.html#references",
+    "href": "slides/2-zip-file/index.html#references",
+    "title": "ENVSOCTY 2GI3",
+    "section": "References",
+    "text": "References\n\nhttps://en.wikipedia.org/wiki/ZIP_(file_format)\nhttps://support.microsoft.com/en-us/windows/zip-and-unzip-files-f6dde0a7-0fec-8294-e1d3-703ed85e7ebc\n\n\n\n\n2024 Zehui Yin"
   }
 ]

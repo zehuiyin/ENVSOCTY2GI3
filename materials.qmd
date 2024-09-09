@@ -4,6 +4,6 @@ title: "Materials"
 
 | Section                             | Slides | PDF |
 |-------------------------------------|---------|--------|
-| Introduction                        | [HTML](./intro/index.html) | [PDF](./intro/Zehui Yin Introduction.pdf) |
-| How to (un)zip a file?              | HTML | PDF |
-| How to make a portable GIS project? | HTML | PDF |
+| Introduction                        | [HTML](./slides/1-intro/index.html) | [PDF](./slides/1-intro/Zehui Yin Introduction.pdf) |
+| How to (un)zip a file?              | [HTML](./slides/2-zip-file/index.html) | [PDF](./slides/2-zip-file/How to (un)zip a file.pdf) |
+| How to make a portable GIS project? | [HTML](./slides/3-portable-gis/index.html) | [PDF](./slides/2-zip-file/How to make a portable GIS project.pdf) |

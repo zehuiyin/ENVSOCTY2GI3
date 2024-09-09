@@ -4,6 +4,7 @@ project:
 
 website:
   title: "ENVSOCTY 2GI3"
+  favicon: "https://zehuiyin.github.io/images/favicon.ico"
   sidebar:
     background: primary
     pinned: true
