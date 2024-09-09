@@ -8,7 +8,7 @@ Welcome to the website for ENVSOCTY 2GI3 Lab 1 & 2 for the Fall 2024 semester at
 McMaster University. You can access all the slides used during the lab sessions
 in the Materials tab.
 
-# Teaching Assiatnt
+# Teaching Assistant
 
 ![](./images/Headshot_square.png){fig-align="left" style="object-fit: cover;width:5em;height:5em;border-radius: 50%;"}  
 **[Zehui Yin](https://zehuiyin.github.io)**<br/>
