@@ -4,21 +4,21 @@
     "href": "slides/4-transform-warning/index.html#what-does-transformation-warning-mean",
     "title": "ENVSOCTY 2GI3",
     "section": "What does transformation warning mean?",
-    "text": "What does transformation warning mean?\n\n\n\n\n\n\n\n\nYou reopen your assignment 1 project after you finished the insert map portion.\nThe projection-on-the-fly feature of the ArcGIS Pro is not working fully.\nDifferent layers being misaligned in the maps.\nThese offsets usually range between several centimeters and several meters."
+    "text": "What does transformation warning mean?\n\n\n\n\n\n\n\n\nUpon reopening your Assignment 1 project after completing the insert map portion, you encounter a transformation warning.\nThe projection-on-the-fly feature in ArcGIS Pro is not functioning correctly.\nThis results in different layers being misaligned on the map.\nThe misalignment can range from several centimetres to several metres."
   },
   {
     "objectID": "slides/4-transform-warning/index.html#what-is-causing-this",
     "href": "slides/4-transform-warning/index.html#what-is-causing-this",
     "title": "ENVSOCTY 2GI3",
     "section": "What is causing this?",
-    "text": "What is causing this?\n\n\n\n\n\n\n\nThe projection used by the insert map is different from the World Imagery (Firefly).\nThe Customized World from Space \\(\\neq\\) WGS 1984 Web Mercator (auxiliary sphere)\nMeanwhile, no existing transformation path is known to ArcGIS Pro."
+    "text": "What is causing this?\n\n\n\n\n\n\n\nThe projection used by the insert map differs from the World Imagery (Firefly) projection.\nThe Customized World from Space projection \\(\\neq\\) WGS 1984 Web Mercator (auxiliary sphere).\nArcGIS Pro does not recognize an existing transformation path between these projections."
   },
   {
     "objectID": "slides/4-transform-warning/index.html#what-to-do",
     "href": "slides/4-transform-warning/index.html#what-to-do",
     "title": "ENVSOCTY 2GI3",
     "section": "What to do?",
-    "text": "What to do?\n\n\n\nIgnore the warning message.\n\nPreferred way for now.\nWe are only making maps.\nStudy area is large in size.\nNot care that much about location accuracy.\nNot a big deal for being off a few meters.\n\n\n\n\nSome other solutions to consider:\n\nKeep all the layers in the same map using the same projection.\nFind or create appropriate transformation method."
+    "text": "What to do?\n\n\n\nIgnore the warning message:\n\nThe preferred approach for now.\nWe are only creating maps.\nThe study area is large.\nLocation accuracy is not a major concern.\nA few meters of offset is not significant.\n\n\n\n\nOther solutions to consider:\n\nEnsure all layers in the map use the same projection.\nFind or create an appropriate transformation method."
   },
   {
     "objectID": "slides/4-transform-warning/index.html#reference",

@@ -326,7 +326,7 @@
     <div class="slides">
 
 
-<section id="what-does-transformation-warning-mean" class="slide level2">
+<section id="what-does-transformation-warning-mean" class="slide level2 smaller">
 <h2>What does transformation warning mean?</h2>
 <div class="columns">
 <div class="column" style="width:30%;">
@@ -336,48 +336,48 @@
 </p><p>
 </p></div><div class="column" style="width:70%;">
 <ul>
-<li><p>You reopen your assignment 1 project after you finished the insert map portion.</p></li>
-<li><p>The <em>projection-on-the-fly</em> feature of the ArcGIS Pro is not working fully.</p></li>
-<li><p>Different layers being misaligned in the maps.</p></li>
-<li><p>These offsets usually range between several centimeters and several meters.</p></li>
+<li><p>Upon reopening your Assignment 1 project after completing the insert map portion, you encounter a transformation warning.</p></li>
+<li><p>The <em>projection-on-the-fly</em> feature in ArcGIS Pro is not functioning correctly.</p></li>
+<li><p>This results in different layers being misaligned on the map.</p></li>
+<li><p>The misalignment can range from several centimetres to several metres.</p></li>
 </ul>
 </div></div>
 </section>
 <section id="what-is-causing-this" class="slide level2">
 <h2>What is causing this?</h2>
 <div class="columns">
-<div class="column" style="width:50%;">
+<div class="column" style="width:40%;">
 <p>
 <img src="./images/warning-3.png">
 </p><p>
-</p></div><div class="column" style="width:50%;">
+</p></div><div class="column" style="width:60%;">
 <ul>
-<li><p>The projection used by the insert map is different from the World Imagery (Firefly).</p></li>
-<li><p>The Customized World from Space <span class="math inline">\(\neq\)</span> WGS 1984 Web Mercator (auxiliary sphere)</p></li>
-<li><p>Meanwhile, no existing transformation path is known to ArcGIS Pro.</p></li>
+<li><p>The projection used by the insert map differs from the World Imagery (Firefly) projection.</p></li>
+<li><p>The Customized World from Space projection <span class="math inline">\(\neq\)</span> WGS 1984 Web Mercator (auxiliary sphere).</p></li>
+<li><p>ArcGIS Pro does not recognize an existing transformation path between these projections.</p></li>
 </ul>
 </div></div>
 </section>
 <section id="what-to-do" class="slide level2">
 <h2>What to do?</h2>
 <div class="columns">
-<div class="column" style="width:50%;">
+<div class="column" style="width:60%;">
 <ul>
-<li>Ignore the warning message.
+<li>Ignore the warning message:
 <ul>
-<li>Preferred way for now.</li>
-<li>We are only making maps.</li>
-<li>Study area is large in size.</li>
-<li>Not care that much about location accuracy.</li>
-<li>Not a big deal for being off a few meters.</li>
+<li>The preferred approach for now.</li>
+<li>We are only creating maps.</li>
+<li>The study area is large.</li>
+<li>Location accuracy is not a major concern.</li>
+<li>A few meters of offset is not significant.</li>
 </ul></li>
 </ul>
-</div><div class="column" style="width:50%;">
+</div><div class="column" style="width:40%;">
 <ul>
-<li>Some other solutions to consider:
+<li>Other solutions to consider:
 <ul>
-<li>Keep all the layers in the same map using the same projection.</li>
-<li>Find or create appropriate transformation method.</li>
+<li>Ensure all layers in the map use the same projection.</li>
+<li>Find or create an appropriate transformation method.</li>
 </ul></li>
 </ul>
 </div></div>

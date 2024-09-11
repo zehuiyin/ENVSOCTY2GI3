@@ -6,7 +6,7 @@ format:
     footer: "2024 Zehui Yin"
 ---
 
-## What does transformation warning mean?
+## What does transformation warning mean? {.smaller}
 
 :::: {.columns}
 
@@ -21,13 +21,13 @@ format:
 
 ::: {.column width="70%"}
 
-- You reopen your assignment 1 project after you finished the insert map portion.
+- Upon reopening your Assignment 1 project after completing the insert map portion, you encounter a transformation warning.
 
-- The _projection-on-the-fly_ feature of the ArcGIS Pro is not working fully.
+- The _projection-on-the-fly_ feature in ArcGIS Pro is not functioning correctly.
 
-- Different layers being misaligned in the maps.
+- This results in different layers being misaligned on the map.
 
-- These offsets usually range between several centimeters and several meters.
+- The misalignment can range from several centimetres to several metres.
 
 :::
 
@@ -37,7 +37,7 @@ format:
 
 :::: {.columns}
 
-::: {.column width="50%"}
+::: {.column width="40%"}
 
 ```{=html}
 <p>
@@ -47,13 +47,13 @@ format:
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="60%"}
 
-- The projection used by the insert map is different from the World Imagery (Firefly).
+- The projection used by the insert map differs from the World Imagery (Firefly) projection.
 
-- The Customized World from Space $\neq$ WGS 1984 Web Mercator (auxiliary sphere)
+- The Customized World from Space projection $\neq$ WGS 1984 Web Mercator (auxiliary sphere).
 
-- Meanwhile, no existing transformation path is known to ArcGIS Pro.
+- ArcGIS Pro does not recognize an existing transformation path between these projections.
 
 :::
 
@@ -63,22 +63,22 @@ format:
 
 :::: {.columns}
 
-::: {.column width="50%"}
+::: {.column width="60%"}
 
-- Ignore the warning message.
-  - Preferred way for now.
-  - We are only making maps.
-  - Study area is large in size.
-  - Not care that much about location accuracy.
-  - Not a big deal for being off a few meters.
+- Ignore the warning message:
+  - The preferred approach for now.
+  - We are only creating maps.
+  - The study area is large.
+  - Location accuracy is not a major concern.
+  - A few meters of offset is not significant.
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="40%"}
 
-- Some other solutions to consider:
-  - Keep all the layers in the same map using the same projection.
-  - Find or create appropriate transformation method.
+- Other solutions to consider:
+  - Ensure all layers in the map use the same projection.
+  - Find or create an appropriate transformation method.
 
 :::
 
