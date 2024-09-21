@@ -2,10 +2,48 @@
 title: "Materials"
 ---
 
-| Section                             | Slides | PDF |
-|-------------------------------------|---------|--------|
-| Introduction                        | [HTML](./slides/1-intro/index.html) | [PDF](./slides/1-intro/Zehui Yin Introduction.pdf) |
-| How to (un)zip a file?              | [HTML](./slides/2-zip-file/index.html) | [PDF](./slides/2-zip-file/How to (un)zip a file.pdf) |
-| How to make a portable GIS project? | [HTML](./slides/3-portable-gis/index.html) | [PDF](./slides/3-portable-gis/How to make a portable GIS project.pdf) |
-| How to take a screenshot?           | [HTML](./slides/4-screenshot/index.html) | [PDF](./slides/4-screenshot/How to take a screenshot.pdf) |
-| Transformation Warning              | [HTML](./slides/5-transform-warning/index.html) | [PDF](./slides/5-transform-warning/Transformation Warning.pdf) |
+```{=html}
+<table><thead>
+  <tr>
+    <th>Assignment</th>
+    <th>Week</th>
+    <th>Section</th>
+    <th>Slides</th>
+    <th>PDF</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td rowspan="6">1</td>
+    <td rowspan="4">3</td>
+    <td>Introduction</td>
+    <td><a href="https://zehuiyin.github.io/ENVSOCTY2GI3/slides/1-intro/">HTML</a></td>
+    <td><a href="https://zehuiyin.github.io/ENVSOCTY2GI3/slides/1-intro/Zehui%20Yin%20Introduction.pdf">PDF</a></td>
+  </tr>
+  <tr>
+    <td>How to (un)zip a file</td>
+    <td><a href="https://zehuiyin.github.io/ENVSOCTY2GI3/slides/2-zip-file/">HTML</a></td>
+    <td><a href="https://zehuiyin.github.io/ENVSOCTY2GI3/slides/2-zip-file/How%20to%20(un)zip%20a%20file.pdf">PDF</a></td>
+  </tr>
+  <tr>
+    <td>How to make a portable GIS project</td>
+    <td><a href="https://zehuiyin.github.io/ENVSOCTY2GI3/slides/3-portable-gis/">HTML</a></td>
+    <td><a href="https://zehuiyin.github.io/ENVSOCTY2GI3/slides/3-portable-gis/How%20to%20make%20a%20portable%20GIS%20project.pdf">PDF</a></td>
+  </tr>
+  <tr>
+    <td>How to take a screenshot</td>
+    <td><a href="https://zehuiyin.github.io/ENVSOCTY2GI3/slides/4-screenshot/">HTML</a></td>
+    <td><a href="https://zehuiyin.github.io/ENVSOCTY2GI3/slides/4-screenshot/How%20to%20take%20a%20screenshot.pdf">PDF</a></td>
+  </tr>
+  <tr>
+    <td rowspan="2">4</td>
+    <td>GIS project folder structure</td>
+    <td><a href="https://zehuiyin.github.io/ENVSOCTY2GI3/slides/5-folder-structure/">HTML</a></td>
+    <td><a href="https://zehuiyin.github.io/ENVSOCTY2GI3/slides/5-folder-structure/GIS%20project%20folder%20structure.pdf">PDF</a></td>
+  </tr>
+  <tr>
+    <td>Transformation warning</td>
+    <td><a href="https://zehuiyin.github.io/ENVSOCTY2GI3/slides/6-transform-warning/">HTML</a></td>
+    <td><a href="https://zehuiyin.github.io/ENVSOCTY2GI3/slides/6-transform-warning/Transformation%20warning.pdf">PDF</a></td>
+  </tr>
+</tbody></table>
+```

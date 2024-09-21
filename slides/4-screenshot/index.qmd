@@ -22,7 +22,7 @@ format:
 - Finally, save the screenshot by clicking the `Save As` button or copy it by clicking the `Copy` button.
 
 ```{=html}
-<a href="../5-transform-warning/index.html" class="button" style="font-size: 0.5em;">Next Slides	&rArr;</a>
+<a href="../5-folder-structure/index.html" class="button" style="font-size: 0.5em;">Next Slides	&rArr;</a>
 
 <style>
   a.button {

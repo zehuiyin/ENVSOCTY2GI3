@@ -11,7 +11,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.5.57">
 
-  <title>ENVSOCTY 2GI3 – How to take a screenshot?</title>
+  <title>ENVSOCTY 2GI3 – GIS Project Folder Structure</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -326,27 +326,68 @@
     <div class="slides">
 
 
-<section id="screenshots" class="slide level2">
-<h2>Screenshots</h2>
+<section id="broken-data-links" class="slide level2">
+<h2>Broken Data Links</h2>
+<div style="font-size: 0.9em;">
 <ul>
-<li>For your assignments, you will need to provide some screenshots.</li>
-<li>While you might consider using your phone to take a photo of your computer screen, this is not the recommended method.
-<ul>
-<li>Taking a photo of your screen can lead to <em>poor</em> image quality and readability issues.</li>
-<li><strong>Unprofessional!</strong></li>
-</ul></li>
+<li>When you open a project, ArcGIS Pro validates your item connections.</li>
+<li>If a connection is <em>invalid</em>, it appears with a red exclamation with a red exclamation point <img data-src="./images/red-mark.png" style="height:0.6em">.</li>
+<li>An item connection is invalid when the item is not found at the expected location.</li>
+<li>If you followed last week’s instructions and moved the <em>entire</em> project folder, this indicates that you used data stored outside of your project folder.</li>
+<li>Specifically, for assignment 1, this means that you saved <code>Rondônia.gdb</code> outside of the project folder.</li>
 </ul>
+</div>
 </section>
-<section id="how-to-take-a-screenshot" class="slide level2">
-<h2>How to Take a Screenshot?</h2>
+<section id="gis-project-folder-structure" class="slide level2">
+<h2>GIS Project Folder Structure</h2>
+<!---
+Generated from https://tree.nathanfriend.io/
+with code:
+
+MyProject
+  - .backups/
+  - MyProject.gdb
+  - GpMessages/
+  - ImportLog/
+  - Index/
+  - MyProject.aprx
+  - MyProject.atbx
+  - Data
+    - Rondônia.gdb
+    - ...
+  - Maps
+    - Layout.png
+    - ...
+--->
+<div class="columns">
+<div class="column" style="width:30%;">
+<pre><code>MyProject/
+├── .backups/
+├── MyProject.gdb
+├── GpMessages/
+├── ImportLog/
+├── Index/
+├── MyProject.aprx
+├── MyProject.atbx
+├── Data/
+│   ├── Rondônia.gdb
+│   └── ...
+└── Maps/
+    ├── Layout.png
+    └── ...</code></pre>
+</div><div class="column" style="width:70%;">
+<div style="font-size: 0.95em;">
 <ul>
-<li>Click on the <code>Search</code> tab in the Taskbar.</li>
-<li>Type <code>Snipping Tool</code> in the search bar.</li>
-<li>In the Snipping Tool window, click on the <code>New</code> button to start capturing a screenshot.</li>
-<li>Drag your mouse to select the area you want to capture (the default mode is rectangular).</li>
-<li>Finally, save the screenshot by clicking the <code>Save As</code> button or copy it by clicking the <code>Copy</code> button.</li>
+<li>Since you are working across devices, your GIS project needs to be <em>self-contained</em>.
+<ul>
+<li>It should only use data within the project folder and <strong>nothing</strong> outside of it.</li>
+</ul></li>
+<li>The left example shows a folder setup that ensures a self-contained project.</li>
+<li>You can name the <code>Data/</code> and <code>Maps/</code> folders whatever you like, but it’s important to use meaningful names.</li>
 </ul>
-<a href="../5-folder-structure/index.html" class="button" style="font-size: 0.5em;">Next Slides ⇒</a>
+</div>
+</div></div>
+<a href="../6-transform-warning/index.html" class="button" style="font-size: 0.5em;">Next Slides    ⇒</a>
 
 <style>
   a.button {
@@ -364,6 +405,12 @@
     background-color: #0056b3;
   }
 </style>
+</section>
+<section id="reference" class="slide level2">
+<h2>Reference</h2>
+<ul>
+<li><a href="https://pro.arcgis.com/en/pro-app/latest/help/projects/repair-project-items.htm" class="uri">https://pro.arcgis.com/en/pro-app/latest/help/projects/repair-project-items.htm</a></li>
+</ul>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">

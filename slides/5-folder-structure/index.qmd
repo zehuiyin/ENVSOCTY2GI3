@@ -1,0 +1,99 @@
+---
+format: 
+  revealjs:
+    pagetitle: "GIS Project Folder Structure"
+    menu: false
+    footer: "2024 Zehui Yin"
+---
+
+## Broken Data Links
+
+::: {style="font-size: 0.9em;"}
+- When you open a project, ArcGIS Pro validates your item connections. 
+- If a connection is _invalid_, it appears with a red exclamation with a red exclamation point ![](./images/red-mark.png){height=0.6em}.
+- An item connection is invalid when the item is not found at the expected location.
+- If you followed last week’s instructions and moved the _entire_ project folder, this indicates that you used data stored outside of your project folder.
+- Specifically, for assignment 1, this means that you saved `Rondônia.gdb` outside of the project folder.
+:::
+
+## GIS Project Folder Structure
+
+<!---
+Generated from https://tree.nathanfriend.io/
+with code:
+
+MyProject
+  - .backups/
+  - MyProject.gdb
+  - GpMessages/
+  - ImportLog/
+  - Index/
+  - MyProject.aprx
+  - MyProject.atbx
+  - Data
+    - Rondônia.gdb
+    - ...
+  - Maps
+    - Layout.png
+    - ...
+--->
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+```
+MyProject/
+├── .backups/
+├── MyProject.gdb
+├── GpMessages/
+├── ImportLog/
+├── Index/
+├── MyProject.aprx
+├── MyProject.atbx
+├── Data/
+│   ├── Rondônia.gdb
+│   └── ...
+└── Maps/
+    ├── Layout.png
+    └── ...
+```
+:::
+
+::: {.column width="70%"}
+::: {style="font-size: 0.95em;"}
+
+- Since you are working across devices, your GIS project needs to be _self-contained_.
+  - It should only use data within the project folder and __nothing__ outside of it.
+- The left example shows a folder setup that ensures a self-contained project.
+- You can name the `Data/` and `Maps/` folders whatever you like, but it’s important to use meaningful names.
+
+:::
+:::
+
+::::
+
+```{=html}
+<a href="../6-transform-warning/index.html" class="button" style="font-size: 0.5em;">Next Slides	&rArr;</a>
+
+<style>
+  a.button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  a.button:hover {
+    background-color: #0056b3;
+  }
+</style>
+```
+
+## Reference
+
+- <https://pro.arcgis.com/en/pro-app/latest/help/projects/repair-project-items.htm>

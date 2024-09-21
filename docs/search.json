@@ -1,107 +1,45 @@
 [
   {
-    "objectID": "slides/5-transform-warning/index.html#what-does-transformation-warning-mean",
-    "href": "slides/5-transform-warning/index.html#what-does-transformation-warning-mean",
+    "objectID": "slides/6-transform-warning/index.html#what-does-transformation-warning-mean",
+    "href": "slides/6-transform-warning/index.html#what-does-transformation-warning-mean",
     "title": "ENVSOCTY 2GI3",
     "section": "What does transformation warning mean?",
     "text": "What does transformation warning mean?\n\n\n\n\n\n\n\n\nUpon reopening your Assignment 1 project after completing the insert map portion, you encounter a transformation warning.\nThe projection-on-the-fly feature in ArcGIS Pro is not functioning correctly.\nThis results in different layers being misaligned on the map.\nThe misalignment can range from several centimetres to several metres."
   },
   {
-    "objectID": "slides/5-transform-warning/index.html#what-is-causing-this",
-    "href": "slides/5-transform-warning/index.html#what-is-causing-this",
+    "objectID": "slides/6-transform-warning/index.html#what-is-causing-this",
+    "href": "slides/6-transform-warning/index.html#what-is-causing-this",
     "title": "ENVSOCTY 2GI3",
     "section": "What is causing this?",
     "text": "What is causing this?\n\n\n\n\n\n\n\nThe projection used by the insert map differs from the World Imagery (Firefly) projection.\nThe Customized World from Space projection \\(\\neq\\) WGS 1984 Web Mercator (auxiliary sphere).\nArcGIS Pro does not recognize an existing transformation path between these projections."
   },
   {
-    "objectID": "slides/5-transform-warning/index.html#what-to-do",
-    "href": "slides/5-transform-warning/index.html#what-to-do",
+    "objectID": "slides/6-transform-warning/index.html#what-to-do",
+    "href": "slides/6-transform-warning/index.html#what-to-do",
     "title": "ENVSOCTY 2GI3",
     "section": "What to do?",
     "text": "What to do?\n\n\n\nIgnore the warning message:\n\nThe preferred approach for now.\nWe are only creating maps.\nThe study area is large.\nLocation accuracy is not a major concern.\nA few meters of offset is not significant.\n\n\n\n\nOther solutions to consider:\n\nEnsure all layers in the map use the same projection.\nFind or create an appropriate transformation method."
   },
   {
-    "objectID": "slides/5-transform-warning/index.html#reference",
-    "href": "slides/5-transform-warning/index.html#reference",
+    "objectID": "slides/6-transform-warning/index.html#reference",
+    "href": "slides/6-transform-warning/index.html#reference",
     "title": "ENVSOCTY 2GI3",
     "section": "Reference",
     "text": "Reference\n\nhttps://www.esri.com/arcgis-blog/products/arcgis-pro/mapping/transformation-warning/\n\n\n\n\n2024 Zehui Yin"
   },
   {
-    "objectID": "slides/3-portable-gis/index.html#how-to-create-a-project-in-arcgis-pro",
-    "href": "slides/3-portable-gis/index.html#how-to-create-a-project-in-arcgis-pro",
+    "objectID": "slides/4-screenshot/index.html#screenshots",
+    "href": "slides/4-screenshot/index.html#screenshots",
     "title": "ENVSOCTY 2GI3",
-    "section": "How to create a project in ArcGIS Pro",
-    "text": "How to create a project in ArcGIS Pro\n\n\n\n\n\n\n\n\n\nClick the Map tab below the New Project heading.\nSet a name and choose a location for the project, then click OK.\nA new folder will be created."
+    "section": "Screenshots",
+    "text": "Screenshots\n\nFor your assignments, you will need to provide some screenshots.\nWhile you might consider using your phone to take a photo of your computer screen, this is not the recommended method.\n\nTaking a photo of your screen can lead to poor image quality and readability issues.\nUnprofessional!"
   },
   {
-    "objectID": "slides/3-portable-gis/index.html#how-to-open-a-project-in-arcgis-pro",
-    "href": "slides/3-portable-gis/index.html#how-to-open-a-project-in-arcgis-pro",
+    "objectID": "slides/4-screenshot/index.html#how-to-take-a-screenshot",
+    "href": "slides/4-screenshot/index.html#how-to-take-a-screenshot",
     "title": "ENVSOCTY 2GI3",
-    "section": "How to open a project in ArcGIS Pro",
-    "text": "How to open a project in ArcGIS Pro\n\n\n\n\nDouble-click to open the new project folder.\nDouble-click the file with the .aprx extension.\nThis will open ArcGIS Pro."
-  },
-  {
-    "objectID": "slides/3-portable-gis/index.html#how-to-transfer-project-across-computers",
-    "href": "slides/3-portable-gis/index.html#how-to-transfer-project-across-computers",
-    "title": "ENVSOCTY 2GI3",
-    "section": "How to transfer project across computers",
-    "text": "How to transfer project across computers\n\nEnsure you are using the same version of ArcGIS Pro on both computers.\nTransfer the entire project folder, including all its contents, to the other computer.\n\nDo not copy only the aprx file."
-  },
-  {
-    "objectID": "slides/3-portable-gis/index.html#why-need-the-whole-folder",
-    "href": "slides/3-portable-gis/index.html#why-need-the-whole-folder",
-    "title": "ENVSOCTY 2GI3",
-    "section": "Why need the whole folder?",
-    "text": "Why need the whole folder?\n\n\n\nImportLog: A folder that contains XML files storing log messages.\nIndex: A folder that contains map thumbnails and keeps track of items stored in the project file.\n.gdb: A geodatabase where data is stored by default.\n\n\n\n.aprx: An ArcGIS project file that contains maps and print layouts.\n.atbx: The default toolbox.\nAdditional folders or files may be created when certain operations or tasks are performed in the project.\n\n\nNext Slides   ⇒"
-  },
-  {
-    "objectID": "slides/3-portable-gis/index.html#reference",
-    "href": "slides/3-portable-gis/index.html#reference",
-    "title": "ENVSOCTY 2GI3",
-    "section": "Reference",
-    "text": "Reference\n\nhttps://pro.arcgis.com/en/pro-app/latest/help/projects/what-is-a-project.htm\n\n\n\n\n2024 Zehui Yin"
-  },
-  {
-    "objectID": "slides/1-intro/index.html#section",
-    "href": "slides/1-intro/index.html#section",
-    "title": "ENVSOCTY 2GI3",
-    "section": "",
-    "text": "Zehui Yin  First-year PhD Student in Geography at SEES\n\n\nEmail: yinz39@mcmaster.ca\n\n\nPlease use your McMaster email address.\nPlease put the course code ENVSOCTY 2GI3 in the subject line.\nPlease include your name and student number in the body of the email.\nI will try to reply within 24 hours (please expect longer delays during weekends/holidays).\n\n\nPersonal Website: zehuiyin.github.io\nResearch Interests: Spatial Analysis, Transportation, Travel Behaviour, Public Transit, Shared Mobility"
-  },
-  {
-    "objectID": "slides/1-intro/index.html#lab-agenda",
-    "href": "slides/1-intro/index.html#lab-agenda",
-    "title": "ENVSOCTY 2GI3",
-    "section": "Lab agenda",
-    "text": "Lab agenda\n\nI will provide an overview of each assignment.\nI will review the essential skills and knowledge needed to complete the assignment.\nYou will work on the assignment during lab time.\nI will offer hands-on help and answer your questions as you work on your assignment.\nIf you do not finish the assignment during lab time, be prepared to complete it on your own.\nPlease note that attendance will be taken during the lab."
-  },
-  {
-    "objectID": "slides/1-intro/index.html#lab-slides",
-    "href": "slides/1-intro/index.html#lab-slides",
-    "title": "ENVSOCTY 2GI3",
-    "section": "Lab slides",
-    "text": "Lab slides\n\n\n\n\n\n\n\nYou can access all the lab slides by scanning the QR code or by visiting the URL directly.\nzehuiyin.github.io/ENVSOCTY2GI3\n\nNext Slides ⇒\n\n\n\n\n\n\n2024 Zehui Yin"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ENVSOCTY 2GI3 Lab 1 & 2",
-    "section": "",
-    "text": "Welcome to the website for ENVSOCTY 2GI3 Lab 1 & 2 for the Fall 2024 semester at McMaster University. You can access all the slides used during the lab sessions in the Materials tab.\n\nTeaching Assistant\n\nZehui Yin Geography PhD Student School of Earth, Environment & Society McMaster University 📧 yinz39@mcmaster.ca\n\n\nLab Time\nLab 1 Thursday 4:30 PM – 6:20 PM Lab 2 Thursday 10:30 AM – 12:20 PM",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "materials.html",
-    "href": "materials.html",
-    "title": "Materials",
-    "section": "",
-    "text": "Section\nSlides\nPDF\n\n\n\n\nIntroduction\nHTML\nPDF\n\n\nHow to (un)zip a file?\nHTML\nPDF\n\n\nHow to make a portable GIS project?\nHTML\nPDF\n\n\nHow to take a screenshot?\nHTML\nPDF\n\n\nTransformation Warning\nHTML\nPDF",
-    "crumbs": [
-      "Materials"
-    ]
+    "section": "How to Take a Screenshot?",
+    "text": "How to Take a Screenshot?\n\nClick on the Search tab in the Taskbar.\nType Snipping Tool in the search bar.\nIn the Snipping Tool window, click on the New button to start capturing a screenshot.\nDrag your mouse to select the area you want to capture (the default mode is rectangular).\nFinally, save the screenshot by clicking the Save As button or copy it by clicking the Copy button.\n\nNext Slides ⇒\n\n\n\n\n\n2024 Zehui Yin"
   },
   {
     "objectID": "slides/2-zip-file/index.html#what-is-a-zip-file",
@@ -139,17 +77,100 @@
     "text": "References\n\nhttps://en.wikipedia.org/wiki/ZIP_(file_format)\nhttps://support.microsoft.com/en-us/windows/zip-and-unzip-files-f6dde0a7-0fec-8294-e1d3-703ed85e7ebc\n\n\n\n\n2024 Zehui Yin"
   },
   {
-    "objectID": "slides/4-screenshot/index.html#screenshots",
-    "href": "slides/4-screenshot/index.html#screenshots",
-    "title": "ENVSOCTY 2GI3",
-    "section": "Screenshots",
-    "text": "Screenshots\n\nFor your assignments, you will need to provide some screenshots.\nWhile you might consider using your phone to take a photo of your computer screen, this is not the recommended method.\n\nTaking a photo of your screen can lead to poor image quality and readability issues.\nUnprofessional!"
+    "objectID": "materials.html",
+    "href": "materials.html",
+    "title": "Materials",
+    "section": "",
+    "text": "Assignment\nWeek\nSection\nSlides\nPDF\n\n\n\n\n1\n3\nIntroduction\nHTML\nPDF\n\n\nHow to (un)zip a file\nHTML\nPDF\n\n\nHow to make a portable GIS project\nHTML\nPDF\n\n\nHow to take a screenshot\nHTML\nPDF\n\n\n4\nGIS project folder structure\nHTML\nPDF\n\n\nTransformation warning\nHTML\nPDF",
+    "crumbs": [
+      "Materials"
+    ]
   },
   {
-    "objectID": "slides/4-screenshot/index.html#how-to-take-a-screenshot",
-    "href": "slides/4-screenshot/index.html#how-to-take-a-screenshot",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ENVSOCTY 2GI3 Lab 1 & 2",
+    "section": "",
+    "text": "Welcome to the website for ENVSOCTY 2GI3 Lab 1 & 2 for the Fall 2024 semester at McMaster University. You can access all the slides used during the lab sessions in the Materials tab.\n\nTeaching Assistant\n\nZehui Yin Geography PhD Student School of Earth, Environment & Society McMaster University 📧 yinz39@mcmaster.ca\n\n\nLab Time\nLab 1 Thursday 4:30 PM – 6:20 PM Lab 2 Thursday 10:30 AM – 12:20 PM",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "slides/1-intro/index.html#section",
+    "href": "slides/1-intro/index.html#section",
     "title": "ENVSOCTY 2GI3",
-    "section": "How to Take a Screenshot?",
-    "text": "How to Take a Screenshot?\n\nClick on the Search tab in the Taskbar.\nType Snipping Tool in the search bar.\nIn the Snipping Tool window, click on the New button to start capturing a screenshot.\nDrag your mouse to select the area you want to capture (the default mode is rectangular).\nFinally, save the screenshot by clicking the Save As button or copy it by clicking the Copy button.\n\nNext Slides    ⇒\n\n\n\n\n\n2024 Zehui Yin"
+    "section": "",
+    "text": "Zehui Yin  First-year PhD Student in Geography at SEES\n\n\nEmail: yinz39@mcmaster.ca\n\n\nPlease use your McMaster email address.\nPlease put the course code ENVSOCTY 2GI3 in the subject line.\nPlease include your name and student number in the body of the email.\nI will try to reply within 24 hours (please expect longer delays during weekends/holidays).\n\n\nPersonal Website: zehuiyin.github.io\nResearch Interests: Spatial Analysis, Transportation, Travel Behaviour, Public Transit, Shared Mobility"
+  },
+  {
+    "objectID": "slides/1-intro/index.html#lab-agenda",
+    "href": "slides/1-intro/index.html#lab-agenda",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Lab agenda",
+    "text": "Lab agenda\n\nI will provide an overview of each assignment.\nI will review the essential skills and knowledge needed to complete the assignment.\nYou will work on the assignment during lab time.\nI will offer hands-on help and answer your questions as you work on your assignment.\nIf you do not finish the assignment during lab time, be prepared to complete it on your own.\nPlease note that attendance will be taken during the lab."
+  },
+  {
+    "objectID": "slides/1-intro/index.html#lab-slides",
+    "href": "slides/1-intro/index.html#lab-slides",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Lab slides",
+    "text": "Lab slides\n\n\n\n\n\n\n\nYou can access all the lab slides by scanning the QR code or by visiting the URL directly.\nzehuiyin.github.io/ENVSOCTY2GI3\n\nNext Slides ⇒\n\n\n\n\n\n\n2024 Zehui Yin"
+  },
+  {
+    "objectID": "slides/3-portable-gis/index.html#how-to-create-a-project-in-arcgis-pro",
+    "href": "slides/3-portable-gis/index.html#how-to-create-a-project-in-arcgis-pro",
+    "title": "ENVSOCTY 2GI3",
+    "section": "How to create a project in ArcGIS Pro",
+    "text": "How to create a project in ArcGIS Pro\n\n\n\n\n\n\n\n\n\nClick the Map tab below the New Project heading.\nSet a name and choose a location for the project, then click OK.\nA new folder will be created."
+  },
+  {
+    "objectID": "slides/3-portable-gis/index.html#how-to-open-a-project-in-arcgis-pro",
+    "href": "slides/3-portable-gis/index.html#how-to-open-a-project-in-arcgis-pro",
+    "title": "ENVSOCTY 2GI3",
+    "section": "How to open a project in ArcGIS Pro",
+    "text": "How to open a project in ArcGIS Pro\n\n\n\n\nDouble-click to open the new project folder.\nDouble-click the file with the .aprx extension.\nThis will open ArcGIS Pro."
+  },
+  {
+    "objectID": "slides/3-portable-gis/index.html#how-to-transfer-project-across-computers",
+    "href": "slides/3-portable-gis/index.html#how-to-transfer-project-across-computers",
+    "title": "ENVSOCTY 2GI3",
+    "section": "How to transfer project across computers",
+    "text": "How to transfer project across computers\n\nEnsure you are using the same version of ArcGIS Pro on both computers.\nTransfer the entire project folder, including all its contents, to the other computer.\n\nDo not copy only the aprx file."
+  },
+  {
+    "objectID": "slides/3-portable-gis/index.html#why-need-the-whole-folder",
+    "href": "slides/3-portable-gis/index.html#why-need-the-whole-folder",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Why need the whole folder?",
+    "text": "Why need the whole folder?\n\n\n\nImportLog: A folder that contains XML files storing log messages.\nIndex: A folder that contains map thumbnails and keeps track of items stored in the project file.\n.gdb: A geodatabase where data is stored by default.\n\n\n\n.aprx: An ArcGIS project file that contains maps and print layouts.\n.atbx: The default toolbox.\nAdditional folders or files may be created when certain operations or tasks are performed in the project.\n\n\nNext Slides   ⇒"
+  },
+  {
+    "objectID": "slides/3-portable-gis/index.html#reference",
+    "href": "slides/3-portable-gis/index.html#reference",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Reference",
+    "text": "Reference\n\nhttps://pro.arcgis.com/en/pro-app/latest/help/projects/what-is-a-project.htm\n\n\n\n\n2024 Zehui Yin"
+  },
+  {
+    "objectID": "slides/5-folder-structure/index.html#broken-data-links",
+    "href": "slides/5-folder-structure/index.html#broken-data-links",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Broken Data Links",
+    "text": "Broken Data Links\n\n\nWhen you open a project, ArcGIS Pro validates your item connections.\nIf a connection is invalid, it appears with a red exclamation with a red exclamation point .\nAn item connection is invalid when the item is not found at the expected location.\nIf you followed last week’s instructions and moved the entire project folder, this indicates that you used data stored outside of your project folder.\nSpecifically, for assignment 1, this means that you saved Rondônia.gdb outside of the project folder."
+  },
+  {
+    "objectID": "slides/5-folder-structure/index.html#gis-project-folder-structure",
+    "href": "slides/5-folder-structure/index.html#gis-project-folder-structure",
+    "title": "ENVSOCTY 2GI3",
+    "section": "GIS Project Folder Structure",
+    "text": "GIS Project Folder Structure\n\n\n\nMyProject/\n├── .backups/\n├── MyProject.gdb\n├── GpMessages/\n├── ImportLog/\n├── Index/\n├── MyProject.aprx\n├── MyProject.atbx\n├── Data/\n│   ├── Rondônia.gdb\n│   └── ...\n└── Maps/\n    ├── Layout.png\n    └── ...\n\n\n\nSince you are working across devices, your GIS project needs to be self-contained.\n\nIt should only use data within the project folder and nothing outside of it.\n\nThe left example shows a folder setup that ensures a self-contained project.\nYou can name the Data/ and Maps/ folders whatever you like, but it’s important to use meaningful names.\n\n\n\nNext Slides    ⇒"
+  },
+  {
+    "objectID": "slides/5-folder-structure/index.html#reference",
+    "href": "slides/5-folder-structure/index.html#reference",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Reference",
+    "text": "Reference\n\nhttps://pro.arcgis.com/en/pro-app/latest/help/projects/repair-project-items.htm\n\n\n\n\n2024 Zehui Yin"
   }
 ]
