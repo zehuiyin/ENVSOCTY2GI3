@@ -6,7 +6,7 @@ format:
     footer: "2024 Zehui Yin"
 ---
 
-## What does transformation warning mean? {.smaller}
+## What does transformation warning mean?
 
 :::: {.columns}
 
@@ -20,7 +20,7 @@ format:
 :::
 
 ::: {.column width="70%"}
-
+::: {style="font-size: 0.95em;"}
 - Upon reopening your Assignment 1 project after completing the insert map portion, you encounter a transformation warning.
 
 - The _projection-on-the-fly_ feature in ArcGIS Pro is not functioning correctly.
@@ -28,7 +28,7 @@ format:
 - This results in different layers being misaligned on the map.
 
 - The misalignment can range from several centimetres to several metres.
-
+:::
 :::
 
 ::::

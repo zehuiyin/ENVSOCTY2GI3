@@ -4,7 +4,7 @@
     "href": "slides/6-transform-warning/index.html#what-does-transformation-warning-mean",
     "title": "ENVSOCTY 2GI3",
     "section": "What does transformation warning mean?",
-    "text": "What does transformation warning mean?\n\n\n\n\n\n\n\n\nUpon reopening your Assignment 1 project after completing the insert map portion, you encounter a transformation warning.\nThe projection-on-the-fly feature in ArcGIS Pro is not functioning correctly.\nThis results in different layers being misaligned on the map.\nThe misalignment can range from several centimetres to several metres."
+    "text": "What does transformation warning mean?\n\n\n\n\n\n\n\n\n\nUpon reopening your Assignment 1 project after completing the insert map portion, you encounter a transformation warning.\nThe projection-on-the-fly feature in ArcGIS Pro is not functioning correctly.\nThis results in different layers being misaligned on the map.\nThe misalignment can range from several centimetres to several metres."
   },
   {
     "objectID": "slides/6-transform-warning/index.html#what-is-causing-this",
