@@ -9,7 +9,7 @@ title: "Materials"
     <th>Week</th>
     <th>Section</th>
     <th>Slides</th>
-    <th>PDF</th>
+    <th>PDF&nbsp;</th>
   </tr></thead>
 <tbody>
   <tr>
@@ -17,33 +17,33 @@ title: "Materials"
     <td rowspan="4">3</td>
     <td>Introduction</td>
     <td><a href="./slides/1-intro/index.html">HTML</a></td>
-    <td><a href="./slides/1-intro/Zehui%20Yin%20Introduction.pdf">PDF</a></td>
+    <td><a href="./slides/1-intro/Zehui Yin Introduction.pdf">PDF</a></td>
   </tr>
   <tr>
     <td>How to (un)zip a file</td>
     <td><a href="./slides/2-zip-file/index.html">HTML</a></td>
-    <td><a href="./slides/2-zip-file/How%20to%20(un)zip%20a%20file.pdf">PDF</a></td>
+    <td><a href="./slides/2-zip-file/How to (un)zip a file.pdf">PDF</a></td>
   </tr>
   <tr>
     <td>How to make a portable GIS project</td>
     <td><a href="./slides/3-portable-gis/index.html">HTML</a></td>
-    <td><a href="./slides/3-portable-gis/How%20to%20make%20a%20portable%20GIS%20project.pdf">PDF</a></td>
+    <td><a href="./slides/3-portable-gis/How to make a portable GIS project.pdf">PDF</a></td>
   </tr>
   <tr>
     <td>How to take a screenshot</td>
     <td><a href="./slides/4-screenshot/index.html">HTML</a></td>
-    <td><a href="./slides/4-screenshot/How%20to%20take%20a%20screenshot.pdf">PDF</a></td>
+    <td><a href="./slides/4-screenshot/How to take a screenshot.pdf">PDF</a></td>
   </tr>
   <tr>
     <td rowspan="2">4</td>
     <td>GIS project folder structure</td>
     <td><a href="./slides/5-folder-structure/index.html">HTML</a></td>
-    <td><a href="./slides/5-folder-structure/GIS%20project%20folder%20structure.pdf">PDF</a></td>
+    <td><a href="./slides/5-folder-structure/GIS project folder structure.pdf">PDF</a></td>
   </tr>
   <tr>
     <td>Transformation warning</td>
     <td><a href="./slides/6-transform-warning/index.html">HTML</a></td>
-    <td><a href="./slides/6-transform-warning/Transformation%20warning.pdf">PDF</a></td>
+    <td><a href="./slides/6-transform-warning/Transformation warning.pdf">PDF</a></td>
   </tr>
 </tbody></table>
 ```
