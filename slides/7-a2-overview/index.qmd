@@ -1,0 +1,32 @@
+---
+format: 
+  revealjs:
+    pagetitle: "Assignment 2 Overview"
+    menu: false
+    footer: "2024 Zehui Yin"
+---
+
+## Assignment 2 Overview
+
+- For Assignment 2, you will map the COVID-19 vaccination updates in Alberta.
+- Create four maps in __JPEG__ format using your own layout files.
+- Complete multiple-choice questions and provide short written answers.
+- Assignment 2 is available on __Connect__.
+- All submissions should be done on Connect (e.g., there are upload buttons for each map)
+  - No need to create a PDF for submission this time.
+
+## Assignment 1 Marking
+
+- __I__ will be responsible for marking your assignments.
+- Only the __latest__ submission will be marked.
+  - No need to notify me about multiple submissions.
+- A brief explanation will be provided for each mark deducted.
+- Marks will be released after the professor’s review.
+
+## Assignment 1 Grade Appeal
+
+- If you have concerns about your mark, feel free to __email__ me ([yinz39@mcmaster.ca](mailto:yinz39@mcmaster.ca)) to discuss.
+  - Use the email subject: _ENVSOCTY 2GI3 Assignment 1 Appeal_
+- Partial marks will be awarded where applicable.
+- I strive for consistency in grading, especially for written answers.
+- Unless there is an error in my mark deduction (e.g., deducting a mark for a missing legend when your map includes one), it is unlikely that marks will be adjusted.
