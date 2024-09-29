@@ -1,121 +1,45 @@
 [
   {
-    "objectID": "slides/6-transform-warning/index.html#what-does-transformation-warning-mean",
-    "href": "slides/6-transform-warning/index.html#what-does-transformation-warning-mean",
+    "objectID": "slides/7-a2-overview/index.html#assignment-2-overview",
+    "href": "slides/7-a2-overview/index.html#assignment-2-overview",
     "title": "ENVSOCTY 2GI3",
-    "section": "What does transformation warning mean?",
-    "text": "What does transformation warning mean?\n\n\n\n\n\n\n\n\n\nUpon reopening your Assignment 1 project after completing the insert map portion, you encounter a transformation warning.\nThe projection-on-the-fly feature in ArcGIS Pro is not functioning correctly.\nThis results in different layers being misaligned on the map.\nThe misalignment can range from several centimetres to several metres."
+    "section": "Assignment 2 Overview",
+    "text": "Assignment 2 Overview\n\nFor Assignment 2, you will map the COVID-19 vaccination updates in Alberta.\nCreate four maps in JPEG format using your own layout files.\nComplete multiple-choice questions and provide short written answers.\nAssignment 2 is available on Connect.\nAll submissions should be done on Connect (e.g., there are upload buttons for each map)\n\nNo need to create a PDF for submission this time."
   },
   {
-    "objectID": "slides/6-transform-warning/index.html#what-is-causing-this",
-    "href": "slides/6-transform-warning/index.html#what-is-causing-this",
+    "objectID": "slides/7-a2-overview/index.html#assignment-1-marking",
+    "href": "slides/7-a2-overview/index.html#assignment-1-marking",
     "title": "ENVSOCTY 2GI3",
-    "section": "What is causing this?",
-    "text": "What is causing this?\n\n\n\n\n\n\n\nThe projection used by the insert map differs from the World Imagery (Firefly) projection.\nThe Customized World from Space projection \\(\\neq\\) WGS 1984 Web Mercator (auxiliary sphere).\nArcGIS Pro does not recognize an existing transformation path between these projections."
+    "section": "Assignment 1 Marking",
+    "text": "Assignment 1 Marking\n\nI will be responsible for marking your assignments.\nOnly the latest submission will be marked.\n\nNo need to notify me about multiple submissions.\n\nA brief explanation will be provided for each mark deducted.\nMarks will be released after the professor’s review."
   },
   {
-    "objectID": "slides/6-transform-warning/index.html#what-to-do",
-    "href": "slides/6-transform-warning/index.html#what-to-do",
+    "objectID": "slides/7-a2-overview/index.html#assignment-1-grade-appeal",
+    "href": "slides/7-a2-overview/index.html#assignment-1-grade-appeal",
     "title": "ENVSOCTY 2GI3",
-    "section": "What to do?",
-    "text": "What to do?\n\n\n\nIgnore the warning message:\n\nThe preferred approach for now.\nWe are only creating maps.\nThe study area is large.\nLocation accuracy is not a major concern.\nA few meters of offset is not significant.\n\n\n\n\nOther solutions to consider:\n\nEnsure all layers in the map use the same projection.\nFind or create an appropriate transformation method."
+    "section": "Assignment 1 Grade Appeal",
+    "text": "Assignment 1 Grade Appeal\n\nIf you have concerns about your mark, feel free to email me (yinz39@mcmaster.ca) to discuss.\n\nUse the email subject: ENVSOCTY 2GI3 Assignment 1 Appeal\n\nPartial marks will be awarded where applicable.\nI strive for consistency in grading, especially for written answers.\nUnless there is an error in my mark deduction (e.g., deducting a mark for a missing legend when your map includes one), it is unlikely that marks will be adjusted.\n\n\n\n\n2024 Zehui Yin"
   },
   {
-    "objectID": "slides/6-transform-warning/index.html#reference",
-    "href": "slides/6-transform-warning/index.html#reference",
+    "objectID": "slides/5-folder-structure/index.html#broken-data-links",
+    "href": "slides/5-folder-structure/index.html#broken-data-links",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Broken Data Links",
+    "text": "Broken Data Links\n\n\nWhen you open a project, ArcGIS Pro validates your item connections.\nIf a connection is invalid, it appears with a red exclamation with a red exclamation point .\nAn item connection is invalid when the item is not found at the expected location.\nIf you followed last week’s instructions and moved the entire project folder, this indicates that you used data stored outside of your project folder.\nSpecifically, for assignment 1, this means that you saved Rondônia.gdb outside of the project folder."
+  },
+  {
+    "objectID": "slides/5-folder-structure/index.html#gis-project-folder-structure",
+    "href": "slides/5-folder-structure/index.html#gis-project-folder-structure",
+    "title": "ENVSOCTY 2GI3",
+    "section": "GIS Project Folder Structure",
+    "text": "GIS Project Folder Structure\n\n\n\nMyProject/\n├── .backups/\n├── MyProject.gdb\n├── GpMessages/\n├── ImportLog/\n├── Index/\n├── MyProject.aprx\n├── MyProject.atbx\n├── Data/\n│   ├── Rondônia.gdb\n│   └── ...\n└── Maps/\n    ├── Layout.png\n    └── ...\n\n\n\nSince you are working across devices, your GIS project needs to be self-contained.\n\nIt should only use data within the project folder and nothing outside of it.\n\nThe left example shows a folder setup that ensures a self-contained project.\nYou can name the Data/ and Maps/ folders whatever you like, but it’s important to use meaningful names.\n\n\n\nNext Slides    ⇒"
+  },
+  {
+    "objectID": "slides/5-folder-structure/index.html#reference",
+    "href": "slides/5-folder-structure/index.html#reference",
     "title": "ENVSOCTY 2GI3",
     "section": "Reference",
-    "text": "Reference\n\nhttps://www.esri.com/arcgis-blog/products/arcgis-pro/mapping/transformation-warning/\n\n\n\n\n2024 Zehui Yin"
-  },
-  {
-    "objectID": "slides/4-screenshot/index.html#screenshots",
-    "href": "slides/4-screenshot/index.html#screenshots",
-    "title": "ENVSOCTY 2GI3",
-    "section": "Screenshots",
-    "text": "Screenshots\n\nFor your assignments, you will need to provide some screenshots.\nWhile you might consider using your phone to take a photo of your computer screen, this is not the recommended method.\n\nTaking a photo of your screen can lead to poor image quality and readability issues.\nUnprofessional!"
-  },
-  {
-    "objectID": "slides/4-screenshot/index.html#how-to-take-a-screenshot",
-    "href": "slides/4-screenshot/index.html#how-to-take-a-screenshot",
-    "title": "ENVSOCTY 2GI3",
-    "section": "How to Take a Screenshot?",
-    "text": "How to Take a Screenshot?\n\nClick on the Search tab in the Taskbar.\nType Snipping Tool in the search bar.\nIn the Snipping Tool window, click on the New button to start capturing a screenshot.\nDrag your mouse to select the area you want to capture (the default mode is rectangular).\nFinally, save the screenshot by clicking the Save As button or copy it by clicking the Copy button.\n\nNext Slides ⇒\n\n\n\n\n\n2024 Zehui Yin"
-  },
-  {
-    "objectID": "slides/2-zip-file/index.html#what-is-a-zip-file",
-    "href": "slides/2-zip-file/index.html#what-is-a-zip-file",
-    "title": "ENVSOCTY 2GI3",
-    "section": "What is a zip file?",
-    "text": "What is a zip file?\n\n Default icon of zip file in Windows 11\n\n\nZip is an archive file format that supports lossless data compression.\nZip file may contain one or more files or directories that may have been compressed.\nZip files generally use the file extensions .zip or .ZIP.\nThey cannot be directly used by GIS software such as ArcGIS Pro."
-  },
-  {
-    "objectID": "slides/2-zip-file/index.html#how-to-zip-a-file-method-1",
-    "href": "slides/2-zip-file/index.html#how-to-zip-a-file-method-1",
-    "title": "ENVSOCTY 2GI3",
-    "section": "How to zip a File (Method 1)",
-    "text": "How to zip a File (Method 1)\n\n\n\n\n\n\n\nRight-click on the file you want to zip such as a word document.\nSelect Compress to... and then choose ZIP File."
-  },
-  {
-    "objectID": "slides/2-zip-file/index.html#how-to-zip-a-file-method-2",
-    "href": "slides/2-zip-file/index.html#how-to-zip-a-file-method-2",
-    "title": "ENVSOCTY 2GI3",
-    "section": "How to zip a File (Method 2)",
-    "text": "How to zip a File (Method 2)\n\n\n\n\n\n\n\n\nRight-click and select New.\nChoose Compressed (zipped) Folder.\nDrag the files you want to zip into this new zipped folder."
-  },
-  {
-    "objectID": "slides/2-zip-file/index.html#how-to-unzip-a-file",
-    "href": "slides/2-zip-file/index.html#how-to-unzip-a-file",
-    "title": "ENVSOCTY 2GI3",
-    "section": "How to unzip a file",
-    "text": "How to unzip a file\n\n\n\n\n\n\n\n\n\nRight-click on the zip file.\nSelect Extract All....\nChoose the destination location (you can use the default).\nClick Extract.\n\nNext Slides ⇒"
-  },
-  {
-    "objectID": "slides/2-zip-file/index.html#references",
-    "href": "slides/2-zip-file/index.html#references",
-    "title": "ENVSOCTY 2GI3",
-    "section": "References",
-    "text": "References\n\nhttps://en.wikipedia.org/wiki/ZIP_(file_format)\nhttps://support.microsoft.com/en-us/windows/zip-and-unzip-files-f6dde0a7-0fec-8294-e1d3-703ed85e7ebc\n\n\n\n\n2024 Zehui Yin"
-  },
-  {
-    "objectID": "materials.html",
-    "href": "materials.html",
-    "title": "Materials",
-    "section": "",
-    "text": "Assignment\nWeek\nSection\nSlides\nPDF \n\n\n\n\n1\n3\nIntroduction\nHTML\nPDF\n\n\nHow to (un)zip a file\nHTML\nPDF\n\n\nHow to make a portable GIS project\nHTML\nPDF\n\n\nHow to take a screenshot\nHTML\nPDF\n\n\n4\nGIS project folder structure\nHTML\nPDF\n\n\nTransformation warning\nHTML\nPDF",
-    "crumbs": [
-      "Materials"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ENVSOCTY 2GI3 Lab 1 & 2",
-    "section": "",
-    "text": "Welcome to the website for ENVSOCTY 2GI3 Lab 1 & 2 for the Fall 2024 semester at McMaster University. You can access all the slides used during the lab sessions in the Materials tab.\n\nTeaching Assistant\n\nZehui Yin Geography PhD Student School of Earth, Environment & Society McMaster University 📧 yinz39@mcmaster.ca\n\n\nLab Time\nLab 1 Thursday 4:30 PM – 6:20 PM Lab 2 Thursday 10:30 AM – 12:20 PM",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "slides/1-intro/index.html#section",
-    "href": "slides/1-intro/index.html#section",
-    "title": "ENVSOCTY 2GI3",
-    "section": "",
-    "text": "Zehui Yin  First-year PhD Student in Geography at SEES\n\n\nEmail: yinz39@mcmaster.ca\n\n\nPlease use your McMaster email address.\nPlease put the course code ENVSOCTY 2GI3 in the subject line.\nPlease include your name and student number in the body of the email.\nI will try to reply within 24 hours (please expect longer delays during weekends/holidays).\n\n\nPersonal Website: zehuiyin.github.io\nResearch Interests: Spatial Analysis, Transportation, Travel Behaviour, Public Transit, Shared Mobility"
-  },
-  {
-    "objectID": "slides/1-intro/index.html#lab-agenda",
-    "href": "slides/1-intro/index.html#lab-agenda",
-    "title": "ENVSOCTY 2GI3",
-    "section": "Lab agenda",
-    "text": "Lab agenda\n\nI will provide an overview of each assignment.\nI will review the essential skills and knowledge needed to complete the assignment.\nYou will work on the assignment during lab time.\nI will offer hands-on help and answer your questions as you work on your assignment.\nIf you do not finish the assignment during lab time, be prepared to complete it on your own.\nPlease note that attendance will be taken during the lab."
-  },
-  {
-    "objectID": "slides/1-intro/index.html#lab-slides",
-    "href": "slides/1-intro/index.html#lab-slides",
-    "title": "ENVSOCTY 2GI3",
-    "section": "Lab slides",
-    "text": "Lab slides\n\n\n\n\n\n\n\nYou can access all the lab slides by scanning the QR code or by visiting the URL directly.\nzehuiyin.github.io/ENVSOCTY2GI3\n\nNext Slides ⇒\n\n\n\n\n\n\n2024 Zehui Yin"
+    "text": "Reference\n\nhttps://pro.arcgis.com/en/pro-app/latest/help/projects/repair-project-items.htm\n\n\n\n\n2024 Zehui Yin"
   },
   {
     "objectID": "slides/3-portable-gis/index.html#how-to-create-a-project-in-arcgis-pro",
@@ -153,45 +77,121 @@
     "text": "Reference\n\nhttps://pro.arcgis.com/en/pro-app/latest/help/projects/what-is-a-project.htm\n\n\n\n\n2024 Zehui Yin"
   },
   {
-    "objectID": "slides/5-folder-structure/index.html#broken-data-links",
-    "href": "slides/5-folder-structure/index.html#broken-data-links",
+    "objectID": "slides/1-intro/index.html#section",
+    "href": "slides/1-intro/index.html#section",
     "title": "ENVSOCTY 2GI3",
-    "section": "Broken Data Links",
-    "text": "Broken Data Links\n\n\nWhen you open a project, ArcGIS Pro validates your item connections.\nIf a connection is invalid, it appears with a red exclamation with a red exclamation point .\nAn item connection is invalid when the item is not found at the expected location.\nIf you followed last week’s instructions and moved the entire project folder, this indicates that you used data stored outside of your project folder.\nSpecifically, for assignment 1, this means that you saved Rondônia.gdb outside of the project folder."
+    "section": "",
+    "text": "Zehui Yin  First-year PhD Student in Geography at SEES\n\n\nEmail: yinz39@mcmaster.ca\n\n\nPlease use your McMaster email address.\nPlease put the course code ENVSOCTY 2GI3 in the subject line.\nPlease include your name and student number in the body of the email.\nI will try to reply within 24 hours (please expect longer delays during weekends/holidays).\n\n\nPersonal Website: zehuiyin.github.io\nResearch Interests: Spatial Analysis, Transportation, Travel Behaviour, Public Transit, Shared Mobility"
   },
   {
-    "objectID": "slides/5-folder-structure/index.html#gis-project-folder-structure",
-    "href": "slides/5-folder-structure/index.html#gis-project-folder-structure",
+    "objectID": "slides/1-intro/index.html#lab-agenda",
+    "href": "slides/1-intro/index.html#lab-agenda",
     "title": "ENVSOCTY 2GI3",
-    "section": "GIS Project Folder Structure",
-    "text": "GIS Project Folder Structure\n\n\n\nMyProject/\n├── .backups/\n├── MyProject.gdb\n├── GpMessages/\n├── ImportLog/\n├── Index/\n├── MyProject.aprx\n├── MyProject.atbx\n├── Data/\n│   ├── Rondônia.gdb\n│   └── ...\n└── Maps/\n    ├── Layout.png\n    └── ...\n\n\n\nSince you are working across devices, your GIS project needs to be self-contained.\n\nIt should only use data within the project folder and nothing outside of it.\n\nThe left example shows a folder setup that ensures a self-contained project.\nYou can name the Data/ and Maps/ folders whatever you like, but it’s important to use meaningful names.\n\n\n\nNext Slides    ⇒"
+    "section": "Lab agenda",
+    "text": "Lab agenda\n\nI will provide an overview of each assignment.\nI will review the essential skills and knowledge needed to complete the assignment.\nYou will work on the assignment during lab time.\nI will offer hands-on help and answer your questions as you work on your assignment.\nIf you do not finish the assignment during lab time, be prepared to complete it on your own.\nPlease note that attendance will be taken during the lab."
   },
   {
-    "objectID": "slides/5-folder-structure/index.html#reference",
-    "href": "slides/5-folder-structure/index.html#reference",
+    "objectID": "slides/1-intro/index.html#lab-slides",
+    "href": "slides/1-intro/index.html#lab-slides",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Lab slides",
+    "text": "Lab slides\n\n\n\n\n\n\n\nYou can access all the lab slides by scanning the QR code or by visiting the URL directly.\nzehuiyin.github.io/ENVSOCTY2GI3\n\nNext Slides ⇒\n\n\n\n\n\n\n2024 Zehui Yin"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ENVSOCTY 2GI3 Lab 1 & 2",
+    "section": "",
+    "text": "Welcome to the website for ENVSOCTY 2GI3 Lab 1 & 2 for the Fall 2024 semester at McMaster University. You can access all the slides used during the lab sessions in the Materials tab.\n\nTeaching Assistant\n\nZehui Yin Geography PhD Student School of Earth, Environment & Society McMaster University 📧 yinz39@mcmaster.ca\n\n\nLab Time\nLab 1 Thursday 4:30 PM – 6:20 PM Lab 2 Thursday 10:30 AM – 12:20 PM",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "materials.html",
+    "href": "materials.html",
+    "title": "Materials",
+    "section": "",
+    "text": "Assignment\nWeek\nSection\nSlides\nPDF \n\n\n\n\n1\n3\nIntroduction\nHTML\nPDF\n\n\nHow to (un)zip a file\nHTML\nPDF\n\n\nHow to make a portable GIS project\nHTML\nPDF\n\n\nHow to take a screenshot\nHTML\nPDF\n\n\n4\nGIS project folder structure\nHTML\nPDF\n\n\nTransformation warning\nHTML\nPDF\n\n\n2\n5\nAssignment 2 Overview\nHTML\nPDF",
+    "crumbs": [
+      "Materials"
+    ]
+  },
+  {
+    "objectID": "slides/2-zip-file/index.html#what-is-a-zip-file",
+    "href": "slides/2-zip-file/index.html#what-is-a-zip-file",
+    "title": "ENVSOCTY 2GI3",
+    "section": "What is a zip file?",
+    "text": "What is a zip file?\n\n Default icon of zip file in Windows 11\n\n\nZip is an archive file format that supports lossless data compression.\nZip file may contain one or more files or directories that may have been compressed.\nZip files generally use the file extensions .zip or .ZIP.\nThey cannot be directly used by GIS software such as ArcGIS Pro."
+  },
+  {
+    "objectID": "slides/2-zip-file/index.html#how-to-zip-a-file-method-1",
+    "href": "slides/2-zip-file/index.html#how-to-zip-a-file-method-1",
+    "title": "ENVSOCTY 2GI3",
+    "section": "How to zip a File (Method 1)",
+    "text": "How to zip a File (Method 1)\n\n\n\n\n\n\n\nRight-click on the file you want to zip such as a word document.\nSelect Compress to... and then choose ZIP File."
+  },
+  {
+    "objectID": "slides/2-zip-file/index.html#how-to-zip-a-file-method-2",
+    "href": "slides/2-zip-file/index.html#how-to-zip-a-file-method-2",
+    "title": "ENVSOCTY 2GI3",
+    "section": "How to zip a File (Method 2)",
+    "text": "How to zip a File (Method 2)\n\n\n\n\n\n\n\n\nRight-click and select New.\nChoose Compressed (zipped) Folder.\nDrag the files you want to zip into this new zipped folder."
+  },
+  {
+    "objectID": "slides/2-zip-file/index.html#how-to-unzip-a-file",
+    "href": "slides/2-zip-file/index.html#how-to-unzip-a-file",
+    "title": "ENVSOCTY 2GI3",
+    "section": "How to unzip a file",
+    "text": "How to unzip a file\n\n\n\n\n\n\n\n\n\nRight-click on the zip file.\nSelect Extract All....\nChoose the destination location (you can use the default).\nClick Extract.\n\nNext Slides ⇒"
+  },
+  {
+    "objectID": "slides/2-zip-file/index.html#references",
+    "href": "slides/2-zip-file/index.html#references",
+    "title": "ENVSOCTY 2GI3",
+    "section": "References",
+    "text": "References\n\nhttps://en.wikipedia.org/wiki/ZIP_(file_format)\nhttps://support.microsoft.com/en-us/windows/zip-and-unzip-files-f6dde0a7-0fec-8294-e1d3-703ed85e7ebc\n\n\n\n\n2024 Zehui Yin"
+  },
+  {
+    "objectID": "slides/4-screenshot/index.html#screenshots",
+    "href": "slides/4-screenshot/index.html#screenshots",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Screenshots",
+    "text": "Screenshots\n\nFor your assignments, you will need to provide some screenshots.\nWhile you might consider using your phone to take a photo of your computer screen, this is not the recommended method.\n\nTaking a photo of your screen can lead to poor image quality and readability issues.\nUnprofessional!"
+  },
+  {
+    "objectID": "slides/4-screenshot/index.html#how-to-take-a-screenshot",
+    "href": "slides/4-screenshot/index.html#how-to-take-a-screenshot",
+    "title": "ENVSOCTY 2GI3",
+    "section": "How to Take a Screenshot?",
+    "text": "How to Take a Screenshot?\n\nClick on the Search tab in the Taskbar.\nType Snipping Tool in the search bar.\nIn the Snipping Tool window, click on the New button to start capturing a screenshot.\nDrag your mouse to select the area you want to capture (the default mode is rectangular).\nFinally, save the screenshot by clicking the Save As button or copy it by clicking the Copy button.\n\nNext Slides ⇒\n\n\n\n\n\n2024 Zehui Yin"
+  },
+  {
+    "objectID": "slides/6-transform-warning/index.html#what-does-transformation-warning-mean",
+    "href": "slides/6-transform-warning/index.html#what-does-transformation-warning-mean",
+    "title": "ENVSOCTY 2GI3",
+    "section": "What does transformation warning mean?",
+    "text": "What does transformation warning mean?\n\n\n\n\n\n\n\n\n\nUpon reopening your Assignment 1 project after completing the insert map portion, you encounter a transformation warning.\nThe projection-on-the-fly feature in ArcGIS Pro is not functioning correctly.\nThis results in different layers being misaligned on the map.\nThe misalignment can range from several centimetres to several metres."
+  },
+  {
+    "objectID": "slides/6-transform-warning/index.html#what-is-causing-this",
+    "href": "slides/6-transform-warning/index.html#what-is-causing-this",
+    "title": "ENVSOCTY 2GI3",
+    "section": "What is causing this?",
+    "text": "What is causing this?\n\n\n\n\n\n\n\nThe projection used by the insert map differs from the World Imagery (Firefly) projection.\nThe Customized World from Space projection \\(\\neq\\) WGS 1984 Web Mercator (auxiliary sphere).\nArcGIS Pro does not recognize an existing transformation path between these projections."
+  },
+  {
+    "objectID": "slides/6-transform-warning/index.html#what-to-do",
+    "href": "slides/6-transform-warning/index.html#what-to-do",
+    "title": "ENVSOCTY 2GI3",
+    "section": "What to do?",
+    "text": "What to do?\n\n\n\nIgnore the warning message:\n\nThe preferred approach for now.\nWe are only creating maps.\nThe study area is large.\nLocation accuracy is not a major concern.\nA few meters of offset is not significant.\n\n\n\n\nOther solutions to consider:\n\nEnsure all layers in the map use the same projection.\nFind or create an appropriate transformation method."
+  },
+  {
+    "objectID": "slides/6-transform-warning/index.html#reference",
+    "href": "slides/6-transform-warning/index.html#reference",
     "title": "ENVSOCTY 2GI3",
     "section": "Reference",
-    "text": "Reference\n\nhttps://pro.arcgis.com/en/pro-app/latest/help/projects/repair-project-items.htm\n\n\n\n\n2024 Zehui Yin"
-  },
-  {
-    "objectID": "slides/7-a2-overview/index.html#assignment-2-overview",
-    "href": "slides/7-a2-overview/index.html#assignment-2-overview",
-    "title": "ENVSOCTY 2GI3",
-    "section": "Assignment 2 Overview",
-    "text": "Assignment 2 Overview\n\nFor Assignment 2, you will map the COVID-19 vaccination updates in Alberta.\nCreate four maps in JPEG format using your own layout files.\nComplete multiple-choice questions and provide short written answers.\nAssignment 2 is available on Connect.\nAll submissions should be done on Connect (e.g., there are upload buttons for each map)\n\nNo need to create a PDF for submission this time."
-  },
-  {
-    "objectID": "slides/7-a2-overview/index.html#assignment-1-marking",
-    "href": "slides/7-a2-overview/index.html#assignment-1-marking",
-    "title": "ENVSOCTY 2GI3",
-    "section": "Assignment 1 Marking",
-    "text": "Assignment 1 Marking\n\nI will be responsible for marking your assignments.\nOnly the latest submission will be marked.\n\nNo need to notify me about multiple submissions.\n\nA brief explanation will be provided for each mark deducted.\nMarks will be released after the professor’s review."
-  },
-  {
-    "objectID": "slides/7-a2-overview/index.html#assignment-1-grade-appeal",
-    "href": "slides/7-a2-overview/index.html#assignment-1-grade-appeal",
-    "title": "ENVSOCTY 2GI3",
-    "section": "Assignment 1 Grade Appeal",
-    "text": "Assignment 1 Grade Appeal\n\nIf you have concerns about your mark, feel free to email me (yinz39@mcmaster.ca) to discuss.\n\nUse the email subject: ENVSOCTY 2GI3 Assignment 1 Appeal\n\nPartial marks will be awarded where applicable.\nI strive for consistency in grading, especially for written answers.\nUnless there is an error in my mark deduction (e.g., deducting a mark for a missing legend when your map includes one), it is unlikely that marks will be adjusted.\n\n\n\n\n2024 Zehui Yin"
+    "text": "Reference\n\nhttps://www.esri.com/arcgis-blog/products/arcgis-pro/mapping/transformation-warning/\n\n\n\n\n2024 Zehui Yin"
   }
 ]
