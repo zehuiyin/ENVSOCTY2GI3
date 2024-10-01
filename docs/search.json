@@ -112,7 +112,7 @@
     "href": "materials.html",
     "title": "Materials",
     "section": "",
-    "text": "Assignment\nWeek\nSection\nSlides\nPDF \n\n\n\n\n1\n3\nIntroduction\nHTML\nPDF\n\n\nHow to (un)zip a file\nHTML\nPDF\n\n\nHow to make a portable GIS project\nHTML\nPDF\n\n\nHow to take a screenshot\nHTML\nPDF\n\n\n4\nGIS project folder structure\nHTML\nPDF\n\n\nTransformation warning\nHTML\nPDF\n\n\n2\n5\nAssignment 2 Overview\nHTML\nPDF",
+    "text": "Assignment\nWeek\nSection\nSlides\nPDF \n\n\n\n\n1\n3\nIntroduction\nHTML\nPDF\n\n\nHow to (un)zip a file\nHTML\nPDF\n\n\nHow to make a portable GIS project\nHTML\nPDF\n\n\nHow to take a screenshot\nHTML\nPDF\n\n\n4\nGIS project folder structure\nHTML\nPDF\n\n\nTransformation warning\nHTML\nPDF\n\n\n2\n5\nAssignment 2 overview\nHTML\nPDF",
     "crumbs": [
       "Materials"
     ]
@@ -185,7 +185,7 @@
     "href": "slides/6-transform-warning/index.html#what-to-do",
     "title": "ENVSOCTY 2GI3",
     "section": "What to do?",
-    "text": "What to do?\n\n\n\nIgnore the warning message:\n\nThe preferred approach for now.\nWe are only creating maps.\nThe study area is large.\nLocation accuracy is not a major concern.\nA few meters of offset is not significant.\n\n\n\n\nOther solutions to consider:\n\nEnsure all layers in the map use the same projection.\nFind or create an appropriate transformation method."
+    "text": "What to do?\n\n\n\nIgnore the warning message:\n\nThe preferred approach for now.\nWe are only creating maps.\nThe study area is large.\nLocation accuracy is not a major concern.\nA few meters of offset is not significant.\n\n\n\n\nOther solutions to consider:\n\nEnsure all layers in the map use the same projection.\nFind or create an appropriate transformation method.\n\n\n\nNext Slides  ⇒"
   },
   {
     "objectID": "slides/6-transform-warning/index.html#reference",

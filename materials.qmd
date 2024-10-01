@@ -48,7 +48,7 @@ title: "Materials"
   <tr>
     <td>2</td>
     <td>5</td>
-    <td>Assignment 2 Overview</td>
+    <td>Assignment 2 overview</td>
     <td><a href="./slides/7-a2-overview/index.html">HTML</a></td>
     <td><a href="./slides/7-a2-overview/Assignment 2 Overview.pdf">PDF</a></td>
   </tr>
