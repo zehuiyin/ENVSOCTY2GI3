@@ -22,6 +22,16 @@ format:
   - No need to notify me about multiple submissions.
 - A brief explanation will be provided for each mark deducted.
 - Marks will be released after the professor’s review.
+- If you submit __a couple of minutes__ late, there will be no late penalty.
+
+## Policy Reminder
+
+- All extension requests should be directed to the professor.
+  - Please do __not__ ask me for an extension.
+- Late assignments are penalized at a rate of <u>20% for the first day</u> and <u>10% for each subsequent day</u> they are overdue, including weekends.
+- Late assignments will only be graded if submitted __no later than three days__ after the original deadline.
+  - A grade of __zero__ will be assigned after this period.
+- If you submit an assignment late, you __must__ notify me that it has been submitted.
 
 ## Assignment 1 Grade Appeal
 
