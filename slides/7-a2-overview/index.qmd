@@ -8,7 +8,7 @@ format:
 
 ## Assignment 2 Overview
 
-- For Assignment 2, you will map the COVID-19 vaccination updates in Alberta.
+- For Assignment 2, you will map the COVID-19 vaccination uptakes in Alberta.
 - Create four maps in __JPEG__ format using your own layout files.
 - Complete multiple-choice questions and provide short written answers.
 - Assignment 2 is available on __Connect__.
