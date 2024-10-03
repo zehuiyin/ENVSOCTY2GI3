@@ -11,11 +11,11 @@ in the Materials tab.
 # Teaching Assistant
 
 ![](./images/Headshot_square.png){fig-align="left" style="object-fit: cover;width:5em;height:5em;border-radius: 50%;"}  
-**[Zehui Yin](https://zehuiyin.github.io)**<br/>
+**[Zehui Yin](https://zehuiyin.github.io)**[[{{< fa brands orcid >}}]{style="color:#A6CE39"}](https://orcid.org/0000-0001-6954-7918)<br/>
 Geography PhD Student<br/>
 School of Earth, Environment & Society<br/>
 McMaster University<br/>
-📧 [yinz39@mcmaster.ca](mailto:yinz39@mcmaster.ca)
+{{< fa envelope >}} [yinz39@mcmaster.ca](mailto:yinz39@mcmaster.ca)
 
 # Lab Time
 
