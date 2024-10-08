@@ -1,0 +1,33 @@
+---
+format: 
+  revealjs:
+    pagetitle: "Assignment 1 Marks"
+    menu: false
+    footer: "2024 Zehui Yin"
+---
+
+## Suspected AI Usage
+
+- I do **not** use any AI checkers during marking.
+  - I am aware that they are unreliable at this point.
+- All cases were manually checked by me.
+  - It is quite obvious when you discuss topics not covered in class (that you don’t really understand).
+- All suspected cases were forwarded to the professor.
+  - I am **not** the sole person making the call.
+- If this happens, you need to <u>contact the professor</u> to discuss the suspect answers.
+
+## Grade Appeal
+
+- You can come to me if you need more explanation on why certain marks were deducted.
+- My grading is fast, and feedback was short due to time constraints.
+- Resubmission is **not** allowed.
+  - This would be unfair to other students who adhered to the deadlines.
+  - I will **not** respond to such request emails.
+- Unless there is an error in my mark deduction, it is unlikely that marks will be adjusted.
+
+## Suggestions for Future Assignments
+
+- Ensure you submit everything in the final submission.
+- Follow the instructions closely.
+- Pay attention to how many marks are allocated to each question.
+  - Spend extra time on high-stakes questions like short answers and maps.

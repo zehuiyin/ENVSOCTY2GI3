@@ -40,3 +40,24 @@ format:
 - Partial marks will be awarded where applicable.
 - I strive for consistency in grading, especially for written answers.
 - Unless there is an error in my mark deduction (e.g., deducting a mark for a missing legend when your map includes one), it is unlikely that marks will be adjusted.
+
+```{=html}
+<a href="../8-a1-marks/index.html" class="button" style="font-size: 0.5em;">Next Slides	&rArr;</a>
+
+<style>
+  a.button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  a.button:hover {
+    background-color: #0056b3;
+  }
+</style>
+```
