@@ -33,6 +33,7 @@ format:
 
 GeoPackage:
 
+- Uses the `.gpkg` extension.
 - An open, non-proprietary, platform-independent, and standards-based data format for GIS.
 - Based on SQLite.
 - Can hold multiple vector and raster data layers in a single file.
