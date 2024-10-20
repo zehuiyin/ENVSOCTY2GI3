@@ -11,7 +11,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.5.57">
 
-  <title>ENVSOCTY 2GI3 – Assignment 1 Marks</title>
+  <title>ENVSOCTY 2GI3 – What is a Shapefile?</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -326,65 +326,52 @@
     <div class="slides">
 
 
-<section id="suspected-ai-usage" class="slide level2">
-<h2>Suspected AI Usage</h2>
+<section id="what-is-a-shapefile" class="slide level2">
+<h2>What is a Shapefile</h2>
 <ul>
-<li>I do <strong>not</strong> use any AI checkers during marking.
+<li>A geospatial <em>vector</em> data format.</li>
+<li>Developed and regulated by <em>Esri</em> as a mostly open specification.</li>
+<li>First introduced in the early 1990s.</li>
+<li>It consists of <u>a series of files</u> with the same name stored in the same directory.
 <ul>
-<li>I am aware that they are unreliable at this point.</li>
+<li>Unlike a Word document, which is a single file per document.</li>
 </ul></li>
-<li>All cases were manually checked by me.
-<ul>
-<li>It is quite obvious when you discuss topics not covered in class (that you don’t really understand).</li>
-</ul></li>
-<li>All suspected cases were forwarded to the professor.
-<ul>
-<li>I am <strong>not</strong> the sole person making the call.</li>
-</ul></li>
-<li>If this happens, you need to <u>contact the professor</u> to discuss the suspect answers.</li>
 </ul>
 </section>
-<section id="grade-appeal" class="slide level2">
-<h2>Grade Appeal</h2>
+<section id="shapefile-structure" class="slide level2">
+<h2>Shapefile Structure</h2>
 <ul>
-<li>You can come to me if you need more explanation on why certain marks were deducted.</li>
-<li>My grading is fast, and feedback was short due to time constraints.</li>
-<li>Resubmission is <strong>not</strong> allowed.
+<li>It has three mandatory files:
 <ul>
-<li>This would be unfair to other students who adhered to the deadlines.</li>
-<li>I will <strong>not</strong> respond to such request emails.</li>
+<li><code>.shp</code>: Shape format, contains the feature geometry.</li>
+<li><code>.shx</code>: Shape index format, a positional index of the feature geometry allowing quick seeking.</li>
+<li><code>.dbf</code>: Attribute format, contains columnar attributes for each shape, in dBase IV format.</li>
 </ul></li>
-<li>Unless there is an error in my mark deduction, it is unlikely that marks will be adjusted.</li>
 </ul>
 </section>
-<section id="suggestions-for-future-assignments" class="slide level2">
-<h2>Suggestions for Future Assignments</h2>
+<section id="shapefile-structure-1" class="slide level2">
+<h2>Shapefile Structure</h2>
 <ul>
-<li>Ensure you submit everything in the final submission.</li>
-<li>Follow the instructions closely.</li>
-<li>Pay attention to how many marks are allocated to each question.
+<li>Other optional files:
 <ul>
-<li>Spend extra time on high-stakes questions like short answers and maps.</li>
+<li><code>.prj</code>: Projection description
+<ul>
+<li>Although optional, a shapefile without a projection file cannot be displayed correctly in GIS software.</li>
+<li>You will work with a shapefile without a projection file in assignment 3.</li>
+</ul></li>
+<li><code>.sbn</code>, <code>.sbx</code>, …</li>
 </ul></li>
 </ul>
-<a href="../9-shapefile/index.html" class="button" style="font-size: 0.5em;">Next Slides    ⇒</a>
-
-<style>
-  a.button {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  a.button:hover {
-    background-color: #0056b3;
-  }
-</style>
+</section>
+<section id="modern-alternatives" class="slide level2">
+<h2>Modern Alternatives</h2>
+<p>GeoPackage:</p>
+<ul>
+<li>An open, non-proprietary, platform-independent, and standards-based data format for GIS.</li>
+<li>Based on SQLite.</li>
+<li>Can hold multiple vector and raster data layers in a single file.</li>
+<li>Initially released in 2014.</li>
+</ul>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">

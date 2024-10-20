@@ -31,3 +31,24 @@ format:
 - Follow the instructions closely.
 - Pay attention to how many marks are allocated to each question.
   - Spend extra time on high-stakes questions like short answers and maps.
+
+```{=html}
+<a href="../9-shapefile/index.html" class="button" style="font-size: 0.5em;">Next Slides	&rArr;</a>
+
+<style>
+  a.button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  a.button:hover {
+    background-color: #0056b3;
+  }
+</style>
+```
