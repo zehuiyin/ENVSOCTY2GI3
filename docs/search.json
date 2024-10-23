@@ -25,7 +25,14 @@
     "href": "slides/9-shapefile/index.html#modern-alternatives",
     "title": "ENVSOCTY 2GI3",
     "section": "Modern Alternatives",
-    "text": "Modern Alternatives\nGeoPackage:\n\nUses the .gpkg extension.\nAn open, non-proprietary, platform-independent, and standards-based data format for GIS.\nBased on SQLite.\nCan hold multiple vector and raster data layers in a single file.\nInitially released in 2014.\n\n\n\n\n2024 Zehui Yin"
+    "text": "Modern Alternatives\nGeoPackage:\n\nUses the .gpkg extension.\nAn open, non-proprietary, platform-independent, and standards-based data format for GIS.\nBased on SQLite.\nCan hold multiple vector and raster data layers in a single file.\nInitially released in 2014."
+  },
+  {
+    "objectID": "slides/9-shapefile/index.html#references",
+    "href": "slides/9-shapefile/index.html#references",
+    "title": "ENVSOCTY 2GI3",
+    "section": "References",
+    "text": "References\n\nhttps://en.wikipedia.org/wiki/Shapefile\nhttps://en.wikipedia.org/wiki/GeoPackage\n\n\n\n\n2024 Zehui Yin"
   },
   {
     "objectID": "slides/7-a2-overview/index.html#assignment-2-overview",
