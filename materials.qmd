@@ -2,6 +2,8 @@
 title: "Materials"
 ---
 
+Some of the slides I used in class are only available on [Avenue to Learn](https://avenue.mcmaster.ca/).
+
 ```{=html}
 <table><thead>
   <tr>
@@ -67,8 +69,15 @@ title: "Materials"
   </tr>
   <tr>
     <td>8</td>
-    <td>Continue working on Assignment 3</td>
+    <td>Continue working on assignment 3</td>
     <td colspan="2">No slides for this week</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>9</td>
+    <td>Assignment 4 overview and table join</td>
+    <td><a href="./slides/10-a4-overview/index.html">HTML</a></td>
+    <td><a href="./slides/10-a4-overview/Assignment 4 Overview.pdf">PDF</a></td>
   </tr>
 </tbody></table>
 ```

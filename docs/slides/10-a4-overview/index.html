@@ -11,7 +11,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.5.57">
 
-  <title>ENVSOCTY 2GI3 – What is a Shapefile?</title>
+  <title>ENVSOCTY 2GI3 – Assignment 4 Overview</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -326,78 +326,47 @@
     <div class="slides">
 
 
-<section id="what-is-a-shapefile" class="slide level2">
-<h2>What is a Shapefile</h2>
+<section id="assignment-4-overview" class="slide level2">
+<h2>Assignment 4 Overview</h2>
 <ul>
-<li>A geospatial <em>vector</em> data format.</li>
-<li>Developed and regulated by <em>Esri</em> as a mostly open specification.</li>
-<li>First introduced in the early 1990s.</li>
-<li>It consists of <u>a series of files</u> with the same name stored in the same directory.
+<li>You will examine population changes in Montreal, QC using Canadian Census data.</li>
+<li>You will learn:
 <ul>
-<li>Unlike a Word document, which is a single file per document.</li>
+<li>How to import Excel files into ArcGIS Pro.</li>
+<li>How to join tables (simple one-to-one join) in ArcGIS Pro.</li>
+<li>How to create pivot tables in ArcGIS Pro.</li>
+<li>How to create side-by-side bar charts in ArcGIS Pro.</li>
 </ul></li>
 </ul>
 </section>
-<section id="shapefile-structure" class="slide level2">
-<h2>Shapefile Structure</h2>
+<section id="submission-details" class="slide level2">
+<h2>Submission Details</h2>
 <ul>
-<li>It has three mandatory files:
+<li>This is a <u>Connect Assignment</u>.</li>
+<li>You will submit everything on Connect.</li>
+<li>The deadline is 2:00 PM on <strong>November 12</strong>.</li>
+<li>Direct all extension requests to the professor.</li>
+</ul>
+</section>
+<section id="table-join" class="slide level2">
+<h2>Table Join</h2>
 <ul>
-<li><code>.shp</code>: Shape format, contains the feature geometry.</li>
-<li><code>.shx</code>: Shape index format, a positional index of the feature geometry allowing quick seeking.</li>
-<li><code>.dbf</code>: Attribute format, contains columnar attributes for each shape, in dBase IV format.</li>
+<li>Simple one-to-one join:
+<ul>
+<li>We have two (attribute) tables with the same number of rows.
+<ul>
+<li>These can be attribute tables from a feature layer or standalone (non-spatial) tables.</li>
+</ul></li>
+<li>Both tables have a common key column containing IDs for each record.</li>
+<li>Each unique ID in the left table corresponds one-to-one with a record in the right table.</li>
 </ul></li>
 </ul>
 </section>
-<section id="shapefile-structure-1" class="slide level2">
-<h2>Shapefile Structure</h2>
-<ul>
-<li>Other optional files:
-<ul>
-<li><code>.prj</code>: Projection description
-<ul>
-<li>Although optional, a shapefile without a projection file cannot be displayed correctly in GIS software.</li>
-<li>You will work with a shapefile without a projection file in assignment 3.</li>
-</ul></li>
-<li><code>.sbn</code>, <code>.sbx</code>, …</li>
-</ul></li>
-</ul>
-</section>
-<section id="modern-alternatives" class="slide level2">
-<h2>Modern Alternatives</h2>
-<p>GeoPackage:</p>
-<ul>
-<li>Uses the <code>.gpkg</code> extension.</li>
-<li>An open, non-proprietary, platform-independent, and standards-based data format for GIS.</li>
-<li>Based on SQLite.</li>
-<li>Can hold multiple vector and raster data layers in a single file.</li>
-<li>Initially released in 2014.</li>
-</ul>
-<a href="../10-a4-overview/index.html" class="button" style="font-size: 0.5em;">Next Slides ⇒</a>
-
-<style>
-  a.button {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  a.button:hover {
-    background-color: #0056b3;
-  }
-</style>
-</section>
-<section id="references" class="slide level2">
-<h2>References</h2>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Shapefile" class="uri">https://en.wikipedia.org/wiki/Shapefile</a></li>
-<li><a href="https://en.wikipedia.org/wiki/GeoPackage" class="uri">https://en.wikipedia.org/wiki/GeoPackage</a></li>
-</ul>
+<section id="simple-one-to-one-join" class="slide level2">
+<h2>Simple one-to-one join</h2>
+<div style="text-align: center;">
+<p><img data-src="./join.png" height="550"></p>
+</div>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
