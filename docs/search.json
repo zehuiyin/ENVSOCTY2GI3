@@ -130,7 +130,7 @@
     "href": "slides/10-a4-overview/index.html#submission-details",
     "title": "ENVSOCTY 2GI3",
     "section": "Submission Details",
-    "text": "Submission Details\n\nThis is a Connect Assignment.\nYou will submit everything on Connect.\nThe deadline is 2:00 PM on November 12.\nDirect all extension requests to the professor."
+    "text": "Submission Details\n\nThis is a Connect Assignment.\nYou will submit everything on Connect.\nThe deadline is 2:00 PM on November 12.\nDirect all extension requests to the professor.\nIf you seek an accommodation (extension), you must save copies of your answers (e.g., save all your answers in a Word document). Your assignments will be reset with a new deadline, and the existing answers will be cleared."
   },
   {
     "objectID": "slides/10-a4-overview/index.html#table-join",
@@ -144,7 +144,14 @@
     "href": "slides/10-a4-overview/index.html#simple-one-to-one-join",
     "title": "ENVSOCTY 2GI3",
     "section": "Simple one-to-one join",
-    "text": "Simple one-to-one join\n\n\n\n\n\n\n2024 Zehui Yin"
+    "text": "Simple one-to-one join"
+  },
+  {
+    "objectID": "slides/10-a4-overview/index.html#question-revision",
+    "href": "slides/10-a4-overview/index.html#question-revision",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Question Revision",
+    "text": "Question Revision\nWhich tool(s) can be used to import an Excel workbook sheet into a geodatabase?\n\nOnly the Excel To Table tool\nOnly the Export Table tool\nExcel To Table and Export Table\nExcel To Table and Table To Excel\n\nTable to Table tool has been replaced with a new tool called Export Table. Both tools have the same functionality.\n\n\n\n2024 Zehui Yin"
   },
   {
     "objectID": "materials.html",

@@ -21,6 +21,7 @@ format:
 - You will submit everything on Connect.
 - The deadline is 2:00 PM on **November 12**.
 - Direct all extension requests to the professor.
+- If you seek an accommodation (extension), you **must** save copies of your answers (e.g., save all your answers in a Word document). Your assignments will be reset with a new deadline, and the existing answers will be cleared.
 
 ## Table Join
 
@@ -35,3 +36,14 @@ format:
 :::{style="text-align: center;"}
 ![](./join.png){height=550px}
 :::
+
+## Question Revision
+
+Which tool(s) can be used to import an Excel workbook sheet into a geodatabase?
+
+A.  Only the Excel To Table tool
+B.  Only the **Export Table** tool
+C.  Excel To Table and **Export Table**
+D.  Excel To Table and Table To Excel
+
+*__Table to Table__ tool has been replaced with a new tool called __Export Table__. Both tools have the same functionality.*
