@@ -47,3 +47,24 @@ C.  Excel To Table and **Export Table**
 D.  Excel To Table and Table To Excel
 
 *__Table to Table__ tool has been replaced with a new tool called __Export Table__. Both tools have the same functionality.*
+
+```{=html}
+<a href="../11-a5-overview/index.html" class="button" style="font-size: 0.5em;">Next Slides	&rArr;</a>
+
+<style>
+  a.button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  a.button:hover {
+    background-color: #0056b3;
+  }
+</style>
+```
