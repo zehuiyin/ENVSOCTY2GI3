@@ -63,3 +63,24 @@ The green lines represent equal distances.
 The orange circle is clipped by the black circle.
 
 The orange geometry is then modified.
+
+```{=html}
+<a href="../12-a6-overview/index.html" class="button" style="font-size: 0.5em;">Next Slides	&rArr;</a>
+
+<style>
+  a.button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  a.button:hover {
+    background-color: #0056b3;
+  }
+</style>
+```

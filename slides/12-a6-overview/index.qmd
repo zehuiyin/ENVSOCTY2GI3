@@ -1,0 +1,46 @@
+---
+format: 
+  revealjs:
+    pagetitle: "Assignment 6 Overview"
+    menu: false
+    footer: "2024 Zehui Yin"
+---
+
+## Assignment 6 Overview
+
+- You will examine the potential impacts of coastal flooding on Vancouver’s residents, streets, and city properties.
+- You will learn:
+  - How to use `Dissolve` tool in ArcGIS Pro.
+  - How to intersect feature layers in ArcGIS Pro.
+    - Intersect points with polygons.
+    - Intersect polylines with polygons.
+  - How to use the `Apportion Polygon` tool in ArcGIS Pro.
+
+## Submission Details
+
+- This is a <u>Connect Assignment</u>.
+- You will submit everything on Connect.
+- The deadline is 2:00 PM on **November 26**.
+- Direct all extension requests to the professor.
+- If you seek an accommodation (extension), you **must** save copies of your answers (e.g., save all your answers in a Word document). Your assignments will be reset with a new deadline, and the existing answers will be cleared.
+
+## Intersection
+
+Intersection operation is a powerful and frequently used tool in GIS.
+
+:::{style="text-align: center;"}
+![](intersect/Slide1.png){width="60%"}
+:::
+
+## Intersection
+
+:::{style="text-align: center;"}
+![](intersect/Slide2.png){width="60%"} 
+![](intersect/Slide3.png){width="60%"}
+:::
+
+## Areal Weighted Interpolation
+
+The `Apportion Polygon` tool in ArcGIS Pro essentially conducts extensive areal weighted interpolation.
+
+![](awi_diagram1.png){width="48%"} ![](awi_diagram2.png){width="48%"}

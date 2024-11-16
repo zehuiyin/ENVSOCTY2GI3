@@ -86,5 +86,12 @@ Some of the slides I used in class are only available on [Avenue to Learn](https
     <td><a href="./slides/11-a5-overview/index.html">HTML</a></td>
     <td><a href="./slides/11-a5-overview/Assignment 5 Overview.pdf">PDF</a></td>
   </tr>
+  <tr>
+    <td>6</td>
+    <td>11</td>
+    <td>Assignment 6 overview, intersection, and areal weighted interpolation</td>
+    <td><a href="./slides/12-a6-overview/index.html">HTML</a></td>
+    <td><a href="./slides/12-a6-overview/Assignment 6 Overview.pdf">PDF</a></td>
+  </tr>
 </tbody></table>
 ```

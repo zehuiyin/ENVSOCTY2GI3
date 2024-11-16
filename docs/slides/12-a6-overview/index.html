@@ -11,7 +11,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.5.57">
 
-  <title>ENVSOCTY 2GI3 – Assignment 5 Overview</title>
+  <title>ENVSOCTY 2GI3 – Assignment 6 Overview</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -326,16 +326,19 @@
     <div class="slides">
 
 
-<section id="assignment-5-overview" class="slide level2">
-<h2>Assignment 5 Overview</h2>
+<section id="assignment-6-overview" class="slide level2">
+<h2>Assignment 6 Overview</h2>
 <ul>
-<li>You will examine crimes in Toronto using open data from Ontario and the City of Toronto.</li>
+<li>You will examine the potential impacts of coastal flooding on Vancouver’s residents, streets, and city properties.</li>
 <li>You will learn:
 <ul>
-<li>How to use the interactive query builder (<code>Select By Attributes</code>) to construct SQL queries in ArcGIS Pro.</li>
-<li>How to create buffers in ArcGIS Pro.</li>
-<li>How to clip a layer in ArcGIS Pro.</li>
-<li>How to remove duplicate records in a feature layer in ArcGIS Pro.</li>
+<li>How to use <code>Dissolve</code> tool in ArcGIS Pro.</li>
+<li>How to intersect feature layers in ArcGIS Pro.
+<ul>
+<li>Intersect points with polygons.</li>
+<li>Intersect polylines with polygons.</li>
+</ul></li>
+<li>How to use the <code>Apportion Polygon</code> tool in ArcGIS Pro.</li>
 </ul></li>
 </ul>
 </section>
@@ -344,60 +347,28 @@
 <ul>
 <li>This is a <u>Connect Assignment</u>.</li>
 <li>You will submit everything on Connect.</li>
-<li>The deadline is 2:00 PM on <strong>November 19</strong>.</li>
+<li>The deadline is 2:00 PM on <strong>November 26</strong>.</li>
 <li>Direct all extension requests to the professor.</li>
 <li>If you seek an accommodation (extension), you <strong>must</strong> save copies of your answers (e.g., save all your answers in a Word document). Your assignments will be reset with a new deadline, and the existing answers will be cleared.</li>
 </ul>
 </section>
-<section id="select-by-attributes-tool" class="slide level2">
-<h2><code>Select By Attributes</code> Tool</h2>
+<section id="intersection" class="slide level2">
+<h2>Intersection</h2>
+<p>Intersection operation is a powerful and frequently used tool in GIS.</p>
 <div style="text-align: center;">
-<p><img data-src="./select_attribute1.png" height="250"></p>
+<p><img data-src="intersect/Slide1.png" style="width:60.0%"></p>
 </div>
-<p>You can find the <code>Select By Attributes</code> tool in the attribute table of a specific feature layer.</p>
-<p>Note that you should click the tool button in the feature layer that you want to subset or select. Otherwise, you will need to manually adjust the <code>Input Rows</code>.</p>
 </section>
-<section id="sql-expression" class="slide level2">
-<h2>SQL Expression</h2>
+<section id="intersection-1" class="slide level2">
+<h2>Intersection</h2>
 <div style="text-align: center;">
-<p><img data-src="./select_attribute2.png" height="250"> <img data-src="./select_attribute3.png" height="250"></p>
+<p><img data-src="intersect/Slide2.png" style="width:60.0%"> <img data-src="intersect/Slide3.png" style="width:60.0%"></p>
 </div>
-<p>After you interactively constructed the query, you can access the corresponding SQL expression by turning on the SQL mode.</p>
-<p>Structured Query Language (SQL) is a language used to manage data in a relational database management system.</p>
 </section>
-<section id="buffer" class="slide level2">
-<h2>Buffer</h2>
-<div style="text-align: center;">
-<p><img data-src="./buffer.png" height="280"></p>
-</div>
-<p>The black geometries are buffered, resulting in the orange geometries.</p>
-<p>The green lines represent equal distances.</p>
-</section>
-<section id="clip" class="slide level2">
-<h2>Clip</h2>
-<div style="text-align: center;">
-<p><img data-src="./clip.png" height="280"></p>
-</div>
-<p>The orange circle is clipped by the black circle.</p>
-<p>The orange geometry is then modified.</p>
-<a href="../12-a6-overview/index.html" class="button" style="font-size: 0.5em;">Next Slides ⇒</a>
-
-<style>
-  a.button {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  a.button:hover {
-    background-color: #0056b3;
-  }
-</style>
+<section id="areal-weighted-interpolation" class="slide level2">
+<h2>Areal Weighted Interpolation</h2>
+<p>The <code>Apportion Polygon</code> tool in ArcGIS Pro essentially conducts extensive areal weighted interpolation.</p>
+<p><img data-src="awi_diagram1.png" style="width:48.0%"> <img data-src="awi_diagram2.png" style="width:48.0%"></p>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">

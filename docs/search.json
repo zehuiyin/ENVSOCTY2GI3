@@ -119,6 +119,117 @@
     "text": "Reference\n\nhttps://pro.arcgis.com/en/pro-app/latest/help/projects/what-is-a-project.htm\n\n\n\n\n2024 Zehui Yin"
   },
   {
+    "objectID": "slides/12-a6-overview/index.html#assignment-6-overview",
+    "href": "slides/12-a6-overview/index.html#assignment-6-overview",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Assignment 6 Overview",
+    "text": "Assignment 6 Overview\n\nYou will examine the potential impacts of coastal flooding on Vancouver’s residents, streets, and city properties.\nYou will learn:\n\nHow to use Dissolve tool in ArcGIS Pro.\nHow to intersect feature layers in ArcGIS Pro.\n\nIntersect points with polygons.\nIntersect polylines with polygons.\n\nHow to use the Apportion Polygon tool in ArcGIS Pro."
+  },
+  {
+    "objectID": "slides/12-a6-overview/index.html#submission-details",
+    "href": "slides/12-a6-overview/index.html#submission-details",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Submission Details",
+    "text": "Submission Details\n\nThis is a Connect Assignment.\nYou will submit everything on Connect.\nThe deadline is 2:00 PM on November 26.\nDirect all extension requests to the professor.\nIf you seek an accommodation (extension), you must save copies of your answers (e.g., save all your answers in a Word document). Your assignments will be reset with a new deadline, and the existing answers will be cleared."
+  },
+  {
+    "objectID": "slides/12-a6-overview/index.html#intersection",
+    "href": "slides/12-a6-overview/index.html#intersection",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Intersection",
+    "text": "Intersection\nIntersection operation is a powerful and frequently used tool in GIS."
+  },
+  {
+    "objectID": "slides/12-a6-overview/index.html#intersection-1",
+    "href": "slides/12-a6-overview/index.html#intersection-1",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Intersection",
+    "text": "Intersection"
+  },
+  {
+    "objectID": "slides/12-a6-overview/index.html#areal-weighted-interpolation",
+    "href": "slides/12-a6-overview/index.html#areal-weighted-interpolation",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Areal Weighted Interpolation",
+    "text": "Areal Weighted Interpolation\nThe Apportion Polygon tool in ArcGIS Pro essentially conducts extensive areal weighted interpolation.\n \n\n\n\n2024 Zehui Yin"
+  },
+  {
+    "objectID": "slides/10-a4-overview/index.html#assignment-4-overview",
+    "href": "slides/10-a4-overview/index.html#assignment-4-overview",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Assignment 4 Overview",
+    "text": "Assignment 4 Overview\n\nYou will examine population changes in Montreal, QC using Canadian Census data.\nYou will learn:\n\nHow to import Excel files into ArcGIS Pro.\nHow to join tables (simple one-to-one join) in ArcGIS Pro.\nHow to create pivot tables in ArcGIS Pro.\nHow to create side-by-side bar charts in ArcGIS Pro."
+  },
+  {
+    "objectID": "slides/10-a4-overview/index.html#submission-details",
+    "href": "slides/10-a4-overview/index.html#submission-details",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Submission Details",
+    "text": "Submission Details\n\nThis is a Connect Assignment.\nYou will submit everything on Connect.\nThe deadline is 2:00 PM on November 12.\nDirect all extension requests to the professor.\nIf you seek an accommodation (extension), you must save copies of your answers (e.g., save all your answers in a Word document). Your assignments will be reset with a new deadline, and the existing answers will be cleared."
+  },
+  {
+    "objectID": "slides/10-a4-overview/index.html#table-join",
+    "href": "slides/10-a4-overview/index.html#table-join",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Table Join",
+    "text": "Table Join\n\nSimple one-to-one join:\n\nWe have two (attribute) tables with the same number of rows.\n\nThese can be attribute tables from a feature layer or standalone (non-spatial) tables.\n\nBoth tables have a common key column containing IDs for each record.\nEach unique ID in the left table corresponds one-to-one with a record in the right table."
+  },
+  {
+    "objectID": "slides/10-a4-overview/index.html#simple-one-to-one-join",
+    "href": "slides/10-a4-overview/index.html#simple-one-to-one-join",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Simple one-to-one join",
+    "text": "Simple one-to-one join"
+  },
+  {
+    "objectID": "slides/10-a4-overview/index.html#question-revision",
+    "href": "slides/10-a4-overview/index.html#question-revision",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Question Revision",
+    "text": "Question Revision\nWhich tool(s) can be used to import an Excel workbook sheet into a geodatabase?\n\nOnly the Excel To Table tool\nOnly the Export Table tool\nExcel To Table and Export Table\nExcel To Table and Table To Excel\n\nTable to Table tool has been replaced with a new tool called Export Table. Both tools have the same functionality.\nNext Slides ⇒\n\n\n\n\n\n2024 Zehui Yin"
+  },
+  {
+    "objectID": "materials.html",
+    "href": "materials.html",
+    "title": "Materials",
+    "section": "",
+    "text": "Some of the slides I used in class are only available on Avenue to Learn.\n\n\n\nAssignment\nWeek\nSection\nSlides\nPDF \n\n\n\n\n1\n3\nIntroduction\nHTML\nPDF\n\n\nHow to (un)zip a file?\nHTML\nPDF\n\n\nHow to make a portable GIS project?\nHTML\nPDF\n\n\nHow to take a screenshot?\nHTML\nPDF\n\n\n4\nGIS project folder structure\nHTML\nPDF\n\n\nTransformation warning\nHTML\nPDF\n\n\n2\n5\nAssignment 2 overview\nHTML\nPDF\n\n\n6\nAssignment 1 marks\nHTML\nPDF\n\n\n3\n7\nWhat is a Shapefile?\nHTML\nPDF\n\n\n8\nContinue working on assignment 3\nNo slides for this week\n\n\n4\n9\nAssignment 4 overview and table join\nHTML\nPDF\n\n\n5\n10\nAssignment 5 overview, query builder, buffer, and clip\nHTML\nPDF\n\n\n6\n11\nAssignment 6 overview, intersection, and areal weighted interpolation\nHTML\nPDF",
+    "crumbs": [
+      "Materials"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ENVSOCTY 2GI3 Lab 1 & 2",
+    "section": "",
+    "text": "Welcome to the website for ENVSOCTY 2GI3 Lab 1 & 2 for the Fall 2024 semester at McMaster University. You can access all the slides used during the lab sessions in the Materials tab.\n\nTeaching Assistant\n\nZehui Yin Geography PhD Student School of Earth, Environment & Society McMaster University  yinz39@mcmaster.ca\n\n\nLab Time\nLab 1 Thursday 4:30 PM – 6:20 PM Lab 2 Thursday 10:30 AM – 12:20 PM",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "slides/1-intro/index.html#section",
+    "href": "slides/1-intro/index.html#section",
+    "title": "ENVSOCTY 2GI3",
+    "section": "",
+    "text": "Zehui Yin  First-year PhD Student in Geography at SEES\n\n\nEmail: yinz39@mcmaster.ca\n\n\nPlease use your McMaster email address.\nPlease put the course code ENVSOCTY 2GI3 in the subject line.\nPlease include your name and student number in the body of the email.\nI will try to reply within 24 hours (please expect longer delays during weekends/holidays).\n\n\nPersonal Website: zehuiyin.github.io\nResearch Interests: Spatial Analysis, Transportation, Travel Behaviour, Public Transit, Shared Mobility"
+  },
+  {
+    "objectID": "slides/1-intro/index.html#lab-agenda",
+    "href": "slides/1-intro/index.html#lab-agenda",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Lab agenda",
+    "text": "Lab agenda\n\nI will provide an overview of each assignment.\nI will review the essential skills and knowledge needed to complete the assignment.\nYou will work on the assignment during lab time.\nI will offer hands-on help and answer your questions as you work on your assignment.\nIf you do not finish the assignment during lab time, be prepared to complete it on your own.\nPlease note that attendance will be taken during the lab."
+  },
+  {
+    "objectID": "slides/1-intro/index.html#lab-slides",
+    "href": "slides/1-intro/index.html#lab-slides",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Lab slides",
+    "text": "Lab slides\n\n\n\n\n\n\n\nYou can access all the lab slides by scanning the QR code or by visiting the URL directly.\nzehuiyin.github.io/ENVSOCTY2GI3\n\nNext Slides ⇒\n\n\n\n\n\n\n2024 Zehui Yin"
+  },
+  {
     "objectID": "slides/11-a5-overview/index.html#assignment-5-overview",
     "href": "slides/11-a5-overview/index.html#assignment-5-overview",
     "title": "ENVSOCTY 2GI3",
@@ -158,83 +269,7 @@
     "href": "slides/11-a5-overview/index.html#clip",
     "title": "ENVSOCTY 2GI3",
     "section": "Clip",
-    "text": "Clip\n\n\n\nThe orange circle is clipped by the black circle.\nThe orange geometry is then modified.\n\n\n\n2024 Zehui Yin"
-  },
-  {
-    "objectID": "slides/1-intro/index.html#section",
-    "href": "slides/1-intro/index.html#section",
-    "title": "ENVSOCTY 2GI3",
-    "section": "",
-    "text": "Zehui Yin  First-year PhD Student in Geography at SEES\n\n\nEmail: yinz39@mcmaster.ca\n\n\nPlease use your McMaster email address.\nPlease put the course code ENVSOCTY 2GI3 in the subject line.\nPlease include your name and student number in the body of the email.\nI will try to reply within 24 hours (please expect longer delays during weekends/holidays).\n\n\nPersonal Website: zehuiyin.github.io\nResearch Interests: Spatial Analysis, Transportation, Travel Behaviour, Public Transit, Shared Mobility"
-  },
-  {
-    "objectID": "slides/1-intro/index.html#lab-agenda",
-    "href": "slides/1-intro/index.html#lab-agenda",
-    "title": "ENVSOCTY 2GI3",
-    "section": "Lab agenda",
-    "text": "Lab agenda\n\nI will provide an overview of each assignment.\nI will review the essential skills and knowledge needed to complete the assignment.\nYou will work on the assignment during lab time.\nI will offer hands-on help and answer your questions as you work on your assignment.\nIf you do not finish the assignment during lab time, be prepared to complete it on your own.\nPlease note that attendance will be taken during the lab."
-  },
-  {
-    "objectID": "slides/1-intro/index.html#lab-slides",
-    "href": "slides/1-intro/index.html#lab-slides",
-    "title": "ENVSOCTY 2GI3",
-    "section": "Lab slides",
-    "text": "Lab slides\n\n\n\n\n\n\n\nYou can access all the lab slides by scanning the QR code or by visiting the URL directly.\nzehuiyin.github.io/ENVSOCTY2GI3\n\nNext Slides ⇒\n\n\n\n\n\n\n2024 Zehui Yin"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ENVSOCTY 2GI3 Lab 1 & 2",
-    "section": "",
-    "text": "Welcome to the website for ENVSOCTY 2GI3 Lab 1 & 2 for the Fall 2024 semester at McMaster University. You can access all the slides used during the lab sessions in the Materials tab.\n\nTeaching Assistant\n\nZehui Yin Geography PhD Student School of Earth, Environment & Society McMaster University  yinz39@mcmaster.ca\n\n\nLab Time\nLab 1 Thursday 4:30 PM – 6:20 PM Lab 2 Thursday 10:30 AM – 12:20 PM",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "materials.html",
-    "href": "materials.html",
-    "title": "Materials",
-    "section": "",
-    "text": "Some of the slides I used in class are only available on Avenue to Learn.\n\n\n\nAssignment\nWeek\nSection\nSlides\nPDF \n\n\n\n\n1\n3\nIntroduction\nHTML\nPDF\n\n\nHow to (un)zip a file?\nHTML\nPDF\n\n\nHow to make a portable GIS project?\nHTML\nPDF\n\n\nHow to take a screenshot?\nHTML\nPDF\n\n\n4\nGIS project folder structure\nHTML\nPDF\n\n\nTransformation warning\nHTML\nPDF\n\n\n2\n5\nAssignment 2 overview\nHTML\nPDF\n\n\n6\nAssignment 1 marks\nHTML\nPDF\n\n\n3\n7\nWhat is a Shapefile?\nHTML\nPDF\n\n\n8\nContinue working on assignment 3\nNo slides for this week\n\n\n4\n9\nAssignment 4 overview and table join\nHTML\nPDF\n\n\n5\n10\nAssignment 5 overview, query builder, buffer, and clip\nHTML\nPDF",
-    "crumbs": [
-      "Materials"
-    ]
-  },
-  {
-    "objectID": "slides/10-a4-overview/index.html#assignment-4-overview",
-    "href": "slides/10-a4-overview/index.html#assignment-4-overview",
-    "title": "ENVSOCTY 2GI3",
-    "section": "Assignment 4 Overview",
-    "text": "Assignment 4 Overview\n\nYou will examine population changes in Montreal, QC using Canadian Census data.\nYou will learn:\n\nHow to import Excel files into ArcGIS Pro.\nHow to join tables (simple one-to-one join) in ArcGIS Pro.\nHow to create pivot tables in ArcGIS Pro.\nHow to create side-by-side bar charts in ArcGIS Pro."
-  },
-  {
-    "objectID": "slides/10-a4-overview/index.html#submission-details",
-    "href": "slides/10-a4-overview/index.html#submission-details",
-    "title": "ENVSOCTY 2GI3",
-    "section": "Submission Details",
-    "text": "Submission Details\n\nThis is a Connect Assignment.\nYou will submit everything on Connect.\nThe deadline is 2:00 PM on November 12.\nDirect all extension requests to the professor.\nIf you seek an accommodation (extension), you must save copies of your answers (e.g., save all your answers in a Word document). Your assignments will be reset with a new deadline, and the existing answers will be cleared."
-  },
-  {
-    "objectID": "slides/10-a4-overview/index.html#table-join",
-    "href": "slides/10-a4-overview/index.html#table-join",
-    "title": "ENVSOCTY 2GI3",
-    "section": "Table Join",
-    "text": "Table Join\n\nSimple one-to-one join:\n\nWe have two (attribute) tables with the same number of rows.\n\nThese can be attribute tables from a feature layer or standalone (non-spatial) tables.\n\nBoth tables have a common key column containing IDs for each record.\nEach unique ID in the left table corresponds one-to-one with a record in the right table."
-  },
-  {
-    "objectID": "slides/10-a4-overview/index.html#simple-one-to-one-join",
-    "href": "slides/10-a4-overview/index.html#simple-one-to-one-join",
-    "title": "ENVSOCTY 2GI3",
-    "section": "Simple one-to-one join",
-    "text": "Simple one-to-one join"
-  },
-  {
-    "objectID": "slides/10-a4-overview/index.html#question-revision",
-    "href": "slides/10-a4-overview/index.html#question-revision",
-    "title": "ENVSOCTY 2GI3",
-    "section": "Question Revision",
-    "text": "Question Revision\nWhich tool(s) can be used to import an Excel workbook sheet into a geodatabase?\n\nOnly the Excel To Table tool\nOnly the Export Table tool\nExcel To Table and Export Table\nExcel To Table and Table To Excel\n\nTable to Table tool has been replaced with a new tool called Export Table. Both tools have the same functionality.\nNext Slides ⇒\n\n\n\n\n\n2024 Zehui Yin"
+    "text": "Clip\n\n\n\nThe orange circle is clipped by the black circle.\nThe orange geometry is then modified.\nNext Slides ⇒\n\n\n\n\n\n2024 Zehui Yin"
   },
   {
     "objectID": "slides/2-zip-file/index.html#what-is-a-zip-file",
