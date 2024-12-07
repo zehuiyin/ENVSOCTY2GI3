@@ -33,17 +33,17 @@ format:
 ## Rasters
 
 :::{style="text-align: center;"}
-![](Slide1.png){width="60%"}
+![](./matrix.png){width="60%"}
 :::
 
 ## Raster Operation
 
 :::{style="text-align: center;"}
-![](Slide2.png){width="60%"}
+![](./matrix_op.png){width="60%"}
 :::
 
 ## Suitability Analysis
 
 :::{style="text-align: center;"}
-![](Slide3.png){width="100%"}
+![](./suitability.png){width="100%"}
 :::

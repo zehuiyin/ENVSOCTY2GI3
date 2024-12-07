@@ -29,21 +29,21 @@ format:
 Intersection operation is a powerful and frequently used tool in GIS.
 
 :::{style="text-align: center;"}
-![](intersect/Slide1.png){width="60%"}
+![](./intersect/Slide1.png){width="60%"}
 :::
 
 ## Intersection
 
 :::{style="text-align: center;"}
-![](intersect/Slide2.png){width="60%"} 
-![](intersect/Slide3.png){width="60%"}
+![](./intersect/Slide2.png){width="60%"} 
+![](./intersect/Slide3.png){width="60%"}
 :::
 
 ## Areal Weighted Interpolation
 
 The `Apportion Polygon` tool in ArcGIS Pro essentially conducts extensive areal weighted interpolation.
 
-![](awi_diagram1.png){width="48%"} ![](awi_diagram2.png){width="48%"}
+![](./awi_diagram1.png){width="48%"} ![](awi_diagram2.png){width="48%"}
 
 ```{=html}
 <a href="../13-a7-overview/index.html" class="button" style="font-size: 0.5em;">Next Slides	&rArr;</a>
