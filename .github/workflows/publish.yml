@@ -22,19 +22,15 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Create gh-pages branch if it doesn't exist
+      - name: Ensure gh-pages branch exists and is up to date
         run: |
-          git fetch
-          if [ `git branch --list gh-pages` ]
-          then
-            echo "Branch exists"
-          else
+          git fetch origin gh-pages || (
             git checkout --orphan gh-pages
             git reset --hard
             git commit --allow-empty -m "Initializing gh-pages branch"
             git push origin gh-pages
-            git checkout main
-          fi
+          )
+          git checkout main
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
