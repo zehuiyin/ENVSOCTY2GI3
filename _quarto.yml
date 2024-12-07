@@ -5,16 +5,29 @@ project:
 website:
   title: "ENVSOCTY 2GI3"
   favicon: "images/favicon.ico"
-  sidebar:
+  search:
+    location: sidebar
+  navbar:
     background: primary
+  page-footer:
+    background: light
+    left: "Copyright 2024, McMaster University"
+  sidebar:
+    background: light
     pinned: true
     align: center
     style: docked
     contents:
-      - href: index.qmd
+      - href: 2024-Fall/index.qmd
         text: Home
-      - href: materials.qmd
+      - href: 2024-Fall/materials.qmd
         text: Materials
+      - href: https://avenue.mcmaster.ca/
+        text: Avenue to Learn
+      - href: https://mcmaster.maps.arcgis.com/
+        text: ArcGIS Online
+      - href: https://pro.arcgis.com/en/pro-app/latest/help/main/welcome-to-the-arcgis-pro-app-help.htm
+        text: ArcGIS Pro Help
 
 format:
   html:
