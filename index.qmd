@@ -9,6 +9,10 @@ format: html
   #quarto-sidebar {
     display: none !important;
   }
+  
+  .quarto-secondary-nav {
+    display: none !important;
+  }
 </style>
 ```
 
