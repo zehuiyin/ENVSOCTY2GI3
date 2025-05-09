@@ -4,7 +4,7 @@ project:
 
 website:
   title: "ENVSOCTY 2GI3"
-  favicon: "images/favicon.ico"
+  favicon: favicon.svg
   search:
     location: sidebar
   navbar:
