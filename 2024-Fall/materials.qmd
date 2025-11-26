@@ -1,5 +1,6 @@
 ---
 title: "Materials"
+sidebar: f2024
 ---
 
 Some of the slides I used in class are only available on [Avenue to Learn](https://avenue.mcmaster.ca/).

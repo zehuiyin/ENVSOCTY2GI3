@@ -11,23 +11,24 @@ website:
     background: primary
   page-footer:
     background: light
-    left: "Copyright 2024, McMaster University"
+    left: "[Copyright 2024, Zehui Yin](https://raw.githubusercontent.com/zehuiyin/ENVSOCTY2GI3/refs/heads/main/LICENSE.txt)"
   sidebar:
-    background: light
-    pinned: true
-    align: center
-    style: docked
-    contents:
-      - href: 2024-Fall/index.qmd
-        text: Home
-      - href: 2024-Fall/materials.qmd
-        text: Materials
-      - href: https://avenue.mcmaster.ca/
-        text: Avenue to Learn
-      - href: https://mcmaster.maps.arcgis.com/
-        text: ArcGIS Online
-      - href: https://pro.arcgis.com/en/pro-app/latest/help/main/welcome-to-the-arcgis-pro-app-help.htm
-        text: ArcGIS Pro Help
+    - id: f2024
+      background: light
+      pinned: true
+      align: center
+      style: docked
+      contents:
+        - href: 2024-Fall/index.qmd
+          text: Home
+        - href: 2024-Fall/materials.qmd
+          text: Materials
+        - href: https://avenue.mcmaster.ca/
+          text: Avenue to Learn
+        - href: https://mcmaster.maps.arcgis.com/
+          text: ArcGIS Online
+        - href: https://pro.arcgis.com/en/pro-app/latest/help/main/welcome-to-the-arcgis-pro-app-help.htm
+          text: ArcGIS Pro Help
 
 format:
   html:
