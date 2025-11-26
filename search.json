@@ -1,0 +1,435 @@
+[
+  {
+    "objectID": "2024-Fall/materials.html",
+    "href": "2024-Fall/materials.html",
+    "title": "Materials",
+    "section": "",
+    "text": "Some of the slides I used in class are only available on Avenue to Learn.\n\n\n\nAssignment\nWeek\nSection\nSlides\nPDF \n\n\n\n\n1\n3\nIntroduction\nHTML\nPDF\n\n\nHow to (un)zip a file?\nHTML\nPDF\n\n\nHow to make a portable GIS project?\nHTML\nPDF\n\n\nHow to take a screenshot?\nHTML\nPDF\n\n\n4\nGIS project folder structure\nHTML\nPDF\n\n\nTransformation warning\nHTML\nPDF\n\n\n2\n5\nAssignment 2 overview\nHTML\nPDF\n\n\n6\nAssignment 1 marks\nHTML\nPDF\n\n\n3\n7\nWhat is a Shapefile?\nHTML\nPDF\n\n\n8\nContinue working on assignment 3\nNo slides for this week\n\n\n4\n9\nAssignment 4 overview and table join\nHTML\nPDF\n\n\n5\n10\nAssignment 5 overview, query builder, buffer, and clip\nHTML\nPDF\n\n\n6\n11\nAssignment 6 overview, intersection, and areal weighted interpolation\nHTML\nPDF\n\n\n7\n12\nAssignment 7 overview, raster, and suitability analysis\nHTML\nPDF",
+    "crumbs": [
+      "Materials"
+    ]
+  },
+  {
+    "objectID": "2024-Fall/slides/13-a7-overview/index.html#assignment-7-overview",
+    "href": "2024-Fall/slides/13-a7-overview/index.html#assignment-7-overview",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Assignment 7 Overview",
+    "text": "Assignment 7 Overview\n\nYou will conduct a suitability analysis to identify the potential sites for wine industry in Nova Scotia.\nYou will learn:\n\nHow to obtain basic information for raster data, including value statistics, projection, cell size, etc.\nHow to compute slope and aspect using DEM data in ArcGIS Pro.\nHow to create boolean rasters.\nHow to perform raster calculations/suitability analysis."
+  },
+  {
+    "objectID": "2024-Fall/slides/13-a7-overview/index.html#submission-details",
+    "href": "2024-Fall/slides/13-a7-overview/index.html#submission-details",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Submission Details",
+    "text": "Submission Details\n\nThis is a Connect Assignment.\nYou will submit everything on Connect.\nThe deadline is 2:00 PM on December 3.\nDirect all extension requests to the professor.\nIf you seek an accommodation (extension), you must save copies of your answers (e.g., save all your answers in a Word document). Your assignments will be reset with a new deadline, and the existing answers will be cleared."
+  },
+  {
+    "objectID": "2024-Fall/slides/13-a7-overview/index.html#logistics",
+    "href": "2024-Fall/slides/13-a7-overview/index.html#logistics",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Logistics",
+    "text": "Logistics\n\nThis is the final assignment for this course.\nThis is also the last lab session for this semester.\nThere will be no lab next week.\nYou can still reach me via email after this lab if you have any further questions."
+  },
+  {
+    "objectID": "2024-Fall/slides/13-a7-overview/index.html#rasters",
+    "href": "2024-Fall/slides/13-a7-overview/index.html#rasters",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Rasters",
+    "text": "Rasters"
+  },
+  {
+    "objectID": "2024-Fall/slides/13-a7-overview/index.html#raster-operation",
+    "href": "2024-Fall/slides/13-a7-overview/index.html#raster-operation",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Raster Operation",
+    "text": "Raster Operation"
+  },
+  {
+    "objectID": "2024-Fall/slides/13-a7-overview/index.html#suitability-analysis",
+    "href": "2024-Fall/slides/13-a7-overview/index.html#suitability-analysis",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Suitability Analysis",
+    "text": "Suitability Analysis"
+  },
+  {
+    "objectID": "2024-Fall/slides/10-a4-overview/index.html#assignment-4-overview",
+    "href": "2024-Fall/slides/10-a4-overview/index.html#assignment-4-overview",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Assignment 4 Overview",
+    "text": "Assignment 4 Overview\n\nYou will examine population changes in Montreal, QC using Canadian Census data.\nYou will learn:\n\nHow to import Excel files into ArcGIS Pro.\nHow to join tables (simple one-to-one join) in ArcGIS Pro.\nHow to create pivot tables in ArcGIS Pro.\nHow to create side-by-side bar charts in ArcGIS Pro."
+  },
+  {
+    "objectID": "2024-Fall/slides/10-a4-overview/index.html#submission-details",
+    "href": "2024-Fall/slides/10-a4-overview/index.html#submission-details",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Submission Details",
+    "text": "Submission Details\n\nThis is a Connect Assignment.\nYou will submit everything on Connect.\nThe deadline is 2:00 PM on November 12.\nDirect all extension requests to the professor.\nIf you seek an accommodation (extension), you must save copies of your answers (e.g., save all your answers in a Word document). Your assignments will be reset with a new deadline, and the existing answers will be cleared."
+  },
+  {
+    "objectID": "2024-Fall/slides/10-a4-overview/index.html#table-join",
+    "href": "2024-Fall/slides/10-a4-overview/index.html#table-join",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Table Join",
+    "text": "Table Join\n\nSimple one-to-one join:\n\nWe have two (attribute) tables with the same number of rows.\n\nThese can be attribute tables from a feature layer or standalone (non-spatial) tables.\n\nBoth tables have a common key column containing IDs for each record.\nEach unique ID in the left table corresponds one-to-one with a record in the right table."
+  },
+  {
+    "objectID": "2024-Fall/slides/10-a4-overview/index.html#simple-one-to-one-join",
+    "href": "2024-Fall/slides/10-a4-overview/index.html#simple-one-to-one-join",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Simple one-to-one join",
+    "text": "Simple one-to-one join"
+  },
+  {
+    "objectID": "2024-Fall/slides/10-a4-overview/index.html#question-revision",
+    "href": "2024-Fall/slides/10-a4-overview/index.html#question-revision",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Question Revision",
+    "text": "Question Revision\nWhich tool(s) can be used to import an Excel workbook sheet into a geodatabase?\n\nOnly the Excel To Table tool\nOnly the Export Table tool\nExcel To Table and Export Table\nExcel To Table and Table To Excel\n\nTable to Table tool has been replaced with a new tool called Export Table. Both tools have the same functionality.\nNext Slides ⇒"
+  },
+  {
+    "objectID": "2024-Fall/slides/3-portable-gis/index.html#how-to-create-a-project-in-arcgis-pro",
+    "href": "2024-Fall/slides/3-portable-gis/index.html#how-to-create-a-project-in-arcgis-pro",
+    "title": "ENVSOCTY 2GI3",
+    "section": "How to create a project in ArcGIS Pro",
+    "text": "How to create a project in ArcGIS Pro\n\n\n\n\n\n\n\n\n\nClick the Map tab below the New Project heading.\nSet a name and choose a location for the project, then click OK.\nA new folder will be created."
+  },
+  {
+    "objectID": "2024-Fall/slides/3-portable-gis/index.html#how-to-open-a-project-in-arcgis-pro",
+    "href": "2024-Fall/slides/3-portable-gis/index.html#how-to-open-a-project-in-arcgis-pro",
+    "title": "ENVSOCTY 2GI3",
+    "section": "How to open a project in ArcGIS Pro",
+    "text": "How to open a project in ArcGIS Pro\n\n\n\n\nDouble-click to open the new project folder.\nDouble-click the file with the .aprx extension.\nThis will open ArcGIS Pro."
+  },
+  {
+    "objectID": "2024-Fall/slides/3-portable-gis/index.html#how-to-transfer-project-across-computers",
+    "href": "2024-Fall/slides/3-portable-gis/index.html#how-to-transfer-project-across-computers",
+    "title": "ENVSOCTY 2GI3",
+    "section": "How to transfer project across computers",
+    "text": "How to transfer project across computers\n\nEnsure you are using the same version of ArcGIS Pro on both computers.\nTransfer the entire project folder, including all its contents, to the other computer.\n\nDo not copy only the aprx file."
+  },
+  {
+    "objectID": "2024-Fall/slides/3-portable-gis/index.html#why-need-the-whole-folder",
+    "href": "2024-Fall/slides/3-portable-gis/index.html#why-need-the-whole-folder",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Why need the whole folder?",
+    "text": "Why need the whole folder?\n\n\n\nImportLog: A folder that contains XML files storing log messages.\nIndex: A folder that contains map thumbnails and keeps track of items stored in the project file.\n.gdb: A geodatabase where data is stored by default.\n\n\n\n.aprx: An ArcGIS project file that contains maps and print layouts.\n.atbx: The default toolbox.\nAdditional folders or files may be created when certain operations or tasks are performed in the project.\n\n\nNext Slides   ⇒"
+  },
+  {
+    "objectID": "2024-Fall/slides/3-portable-gis/index.html#reference",
+    "href": "2024-Fall/slides/3-portable-gis/index.html#reference",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Reference",
+    "text": "Reference\n\nhttps://pro.arcgis.com/en/pro-app/latest/help/projects/what-is-a-project.htm"
+  },
+  {
+    "objectID": "2024-Fall/slides/2-zip-file/index.html#what-is-a-zip-file",
+    "href": "2024-Fall/slides/2-zip-file/index.html#what-is-a-zip-file",
+    "title": "ENVSOCTY 2GI3",
+    "section": "What is a zip file?",
+    "text": "What is a zip file?\n\n Default icon of zip file in Windows 11\n\n\nZip is an archive file format that supports lossless data compression.\nZip file may contain one or more files or directories that may have been compressed.\nZip files generally use the file extensions .zip or .ZIP.\nThey cannot be directly used by GIS software such as ArcGIS Pro."
+  },
+  {
+    "objectID": "2024-Fall/slides/2-zip-file/index.html#how-to-zip-a-file-method-1",
+    "href": "2024-Fall/slides/2-zip-file/index.html#how-to-zip-a-file-method-1",
+    "title": "ENVSOCTY 2GI3",
+    "section": "How to zip a File (Method 1)",
+    "text": "How to zip a File (Method 1)\n\n\n\n\n\n\n\nRight-click on the file you want to zip such as a word document.\nSelect Compress to... and then choose ZIP File."
+  },
+  {
+    "objectID": "2024-Fall/slides/2-zip-file/index.html#how-to-zip-a-file-method-2",
+    "href": "2024-Fall/slides/2-zip-file/index.html#how-to-zip-a-file-method-2",
+    "title": "ENVSOCTY 2GI3",
+    "section": "How to zip a File (Method 2)",
+    "text": "How to zip a File (Method 2)\n\n\n\n\n\n\n\n\nRight-click and select New.\nChoose Compressed (zipped) Folder.\nDrag the files you want to zip into this new zipped folder."
+  },
+  {
+    "objectID": "2024-Fall/slides/2-zip-file/index.html#how-to-unzip-a-file",
+    "href": "2024-Fall/slides/2-zip-file/index.html#how-to-unzip-a-file",
+    "title": "ENVSOCTY 2GI3",
+    "section": "How to unzip a file",
+    "text": "How to unzip a file\n\n\n\n\n\n\n\n\n\nRight-click on the zip file.\nSelect Extract All....\nChoose the destination location (you can use the default).\nClick Extract.\n\nNext Slides ⇒"
+  },
+  {
+    "objectID": "2024-Fall/slides/2-zip-file/index.html#references",
+    "href": "2024-Fall/slides/2-zip-file/index.html#references",
+    "title": "ENVSOCTY 2GI3",
+    "section": "References",
+    "text": "References\n\nhttps://en.wikipedia.org/wiki/ZIP_(file_format)\nhttps://support.microsoft.com/en-us/windows/zip-and-unzip-files-f6dde0a7-0fec-8294-e1d3-703ed85e7ebc"
+  },
+  {
+    "objectID": "2024-Fall/slides/8-a1-marks/index.html#suspected-ai-usage",
+    "href": "2024-Fall/slides/8-a1-marks/index.html#suspected-ai-usage",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Suspected AI Usage",
+    "text": "Suspected AI Usage\n\nI do not use any AI checkers during marking.\n\nI am aware that they are unreliable at this point.\n\nAll cases were manually checked by me.\n\nIt is quite obvious when you discuss topics not covered in class (that you don’t really understand).\n\nAll suspected cases were forwarded to the professor.\n\nI am not the sole person making the call.\n\nIf this happens, you need to contact the professor to discuss the suspect answers."
+  },
+  {
+    "objectID": "2024-Fall/slides/8-a1-marks/index.html#grade-appeal",
+    "href": "2024-Fall/slides/8-a1-marks/index.html#grade-appeal",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Grade Appeal",
+    "text": "Grade Appeal\n\nYou can come to me if you need more explanation on why certain marks were deducted.\nMy grading is fast, and feedback was short due to time constraints.\nResubmission is not allowed.\n\nThis would be unfair to other students who adhered to the deadlines.\nI will not respond to such request emails.\n\nUnless there is an error in my mark deduction, it is unlikely that marks will be adjusted."
+  },
+  {
+    "objectID": "2024-Fall/slides/8-a1-marks/index.html#suggestions-for-future-assignments",
+    "href": "2024-Fall/slides/8-a1-marks/index.html#suggestions-for-future-assignments",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Suggestions for Future Assignments",
+    "text": "Suggestions for Future Assignments\n\nEnsure you submit everything in the final submission.\nFollow the instructions closely.\nPay attention to how many marks are allocated to each question.\n\nSpend extra time on high-stakes questions like short answers and maps.\n\n\nNext Slides    ⇒"
+  },
+  {
+    "objectID": "2024-Fall/slides/11-a5-overview/index.html#assignment-5-overview",
+    "href": "2024-Fall/slides/11-a5-overview/index.html#assignment-5-overview",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Assignment 5 Overview",
+    "text": "Assignment 5 Overview\n\nYou will examine crimes in Toronto using open data from Ontario and the City of Toronto.\nYou will learn:\n\nHow to use the interactive query builder (Select By Attributes) to construct SQL queries in ArcGIS Pro.\nHow to create buffers in ArcGIS Pro.\nHow to clip a layer in ArcGIS Pro.\nHow to remove duplicate records in a feature layer in ArcGIS Pro."
+  },
+  {
+    "objectID": "2024-Fall/slides/11-a5-overview/index.html#submission-details",
+    "href": "2024-Fall/slides/11-a5-overview/index.html#submission-details",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Submission Details",
+    "text": "Submission Details\n\nThis is a Connect Assignment.\nYou will submit everything on Connect.\nThe deadline is 2:00 PM on November 19.\nDirect all extension requests to the professor.\nIf you seek an accommodation (extension), you must save copies of your answers (e.g., save all your answers in a Word document). Your assignments will be reset with a new deadline, and the existing answers will be cleared."
+  },
+  {
+    "objectID": "2024-Fall/slides/11-a5-overview/index.html#select-by-attributes-tool",
+    "href": "2024-Fall/slides/11-a5-overview/index.html#select-by-attributes-tool",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Select By Attributes Tool",
+    "text": "Select By Attributes Tool\n\n\n\nYou can find the Select By Attributes tool in the attribute table of a specific feature layer.\nNote that you should click the tool button in the feature layer that you want to subset or select. Otherwise, you will need to manually adjust the Input Rows."
+  },
+  {
+    "objectID": "2024-Fall/slides/11-a5-overview/index.html#sql-expression",
+    "href": "2024-Fall/slides/11-a5-overview/index.html#sql-expression",
+    "title": "ENVSOCTY 2GI3",
+    "section": "SQL Expression",
+    "text": "SQL Expression\n\n \n\nAfter you interactively constructed the query, you can access the corresponding SQL expression by turning on the SQL mode.\nStructured Query Language (SQL) is a language used to manage data in a relational database management system."
+  },
+  {
+    "objectID": "2024-Fall/slides/11-a5-overview/index.html#buffer",
+    "href": "2024-Fall/slides/11-a5-overview/index.html#buffer",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Buffer",
+    "text": "Buffer\n\n\n\nThe black geometries are buffered, resulting in the orange geometries.\nThe green lines represent equal distances."
+  },
+  {
+    "objectID": "2024-Fall/slides/11-a5-overview/index.html#clip",
+    "href": "2024-Fall/slides/11-a5-overview/index.html#clip",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Clip",
+    "text": "Clip\n\n\n\nThe orange circle is clipped by the black circle.\nThe orange geometry is then modified.\nNext Slides ⇒"
+  },
+  {
+    "objectID": "2024-Fall/index.html",
+    "href": "2024-Fall/index.html",
+    "title": "ENVSOCTY 2GI3 Lab 1 & 2",
+    "section": "",
+    "text": "Welcome to the website for ENVSOCTY 2GI3 Lab 1 & 2 for the Fall 2024 semester at McMaster University. You can access all the slides used during the lab sessions in the Materials tab.\n\nTeaching Assistant\n Zehui Yin Geography PhD Student School of Earth, Environment & Society McMaster University  yinz39@mcmaster.ca\n\n\nLab Time\nLab 1 Thursday 4:30 PM – 6:20 PM Lab 2 Thursday 10:30 AM – 12:20 PM",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ENVSOCTY 2GI3 Lab Website",
+    "section": "",
+    "text": "This course is an introduction to Geographic Information Science, focusing on how to work with common GIS data such as vectors and rasters, as well as map making, basic spatial analysis, and descriptive statistics using ArcGIS Pro. Each week, during the lab sessions, we will work through case studies based on real-world data, such as the Canadian Census, and learn how to apply the methods learned in the course using GIS software."
+  },
+  {
+    "objectID": "index.html#select-academic-yearterm",
+    "href": "index.html#select-academic-yearterm",
+    "title": "ENVSOCTY 2GI3 Lab Website",
+    "section": "Select Academic Year/Term:",
+    "text": "Select Academic Year/Term:\n\n2024 Fall"
+  },
+  {
+    "objectID": "index.html#archive",
+    "href": "index.html#archive",
+    "title": "ENVSOCTY 2GI3 Lab Website",
+    "section": "Archive:",
+    "text": "Archive:\n\n2024 Fall"
+  },
+  {
+    "objectID": "2024-Fall/slides/5-folder-structure/index.html#broken-data-links",
+    "href": "2024-Fall/slides/5-folder-structure/index.html#broken-data-links",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Broken Data Links",
+    "text": "Broken Data Links\n\n\nWhen you open a project, ArcGIS Pro validates your item connections.\nIf a connection is invalid, it appears with a red exclamation with a red exclamation point .\nAn item connection is invalid when the item is not found at the expected location.\nIf you followed last week’s instructions and moved the entire project folder, this indicates that you used data stored outside of your project folder.\nSpecifically, for assignment 1, this means that you saved Rondônia.gdb outside of the project folder."
+  },
+  {
+    "objectID": "2024-Fall/slides/5-folder-structure/index.html#gis-project-folder-structure",
+    "href": "2024-Fall/slides/5-folder-structure/index.html#gis-project-folder-structure",
+    "title": "ENVSOCTY 2GI3",
+    "section": "GIS Project Folder Structure",
+    "text": "GIS Project Folder Structure\n\n\n\nMyProject/\n├── .backups/\n├── MyProject.gdb\n├── GpMessages/\n├── ImportLog/\n├── Index/\n├── MyProject.aprx\n├── MyProject.atbx\n├── Data/\n│   ├── Rondônia.gdb\n│   └── ...\n└── Maps/\n    ├── Layout.png\n    └── ...\n\n\n\nSince you are working across devices, your GIS project needs to be self-contained.\n\nIt should only use data within the project folder and nothing outside of it.\n\nThe left example shows a folder setup that ensures a self-contained project.\nYou can name the Data/ and Maps/ folders whatever you like, but it’s important to use meaningful names.\n\n\n\nNext Slides    ⇒"
+  },
+  {
+    "objectID": "2024-Fall/slides/5-folder-structure/index.html#reference",
+    "href": "2024-Fall/slides/5-folder-structure/index.html#reference",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Reference",
+    "text": "Reference\n\nhttps://pro.arcgis.com/en/pro-app/latest/help/projects/repair-project-items.htm"
+  },
+  {
+    "objectID": "2024-Fall/slides/6-transform-warning/index.html#what-does-transformation-warning-mean",
+    "href": "2024-Fall/slides/6-transform-warning/index.html#what-does-transformation-warning-mean",
+    "title": "ENVSOCTY 2GI3",
+    "section": "What does transformation warning mean?",
+    "text": "What does transformation warning mean?\n\n\n\n\n\n\n\n\n\nUpon reopening your Assignment 1 project after completing the insert map portion, you encounter a transformation warning.\nThe projection-on-the-fly feature in ArcGIS Pro is not functioning correctly.\nThis results in different layers being misaligned on the map.\nThe misalignment can range from several centimetres to several metres."
+  },
+  {
+    "objectID": "2024-Fall/slides/6-transform-warning/index.html#what-is-causing-this",
+    "href": "2024-Fall/slides/6-transform-warning/index.html#what-is-causing-this",
+    "title": "ENVSOCTY 2GI3",
+    "section": "What is causing this?",
+    "text": "What is causing this?\n\n\n\n\n\n\n\nThe projection used by the insert map differs from the World Imagery (Firefly) projection.\nThe Customized World from Space projection \\(\\neq\\) WGS 1984 Web Mercator (auxiliary sphere).\nArcGIS Pro does not recognize an existing transformation path between these projections."
+  },
+  {
+    "objectID": "2024-Fall/slides/6-transform-warning/index.html#what-to-do",
+    "href": "2024-Fall/slides/6-transform-warning/index.html#what-to-do",
+    "title": "ENVSOCTY 2GI3",
+    "section": "What to do?",
+    "text": "What to do?\n\n\n\nIgnore the warning message:\n\nThe preferred approach for now.\nWe are only creating maps.\nThe study area is large.\nLocation accuracy is not a major concern.\nA few meters of offset is not significant.\n\n\n\n\nOther solutions to consider:\n\nEnsure all layers in the map use the same projection.\nFind or create an appropriate transformation method.\n\n\n\nNext Slides  ⇒"
+  },
+  {
+    "objectID": "2024-Fall/slides/6-transform-warning/index.html#reference",
+    "href": "2024-Fall/slides/6-transform-warning/index.html#reference",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Reference",
+    "text": "Reference\n\nhttps://www.esri.com/arcgis-blog/products/arcgis-pro/mapping/transformation-warning/"
+  },
+  {
+    "objectID": "2024-Fall/slides/1-intro/index.html#section",
+    "href": "2024-Fall/slides/1-intro/index.html#section",
+    "title": "ENVSOCTY 2GI3",
+    "section": "",
+    "text": "Zehui Yin  First-year PhD Student in Geography at SEES\n\n\nEmail: yinz39@mcmaster.ca\n\n\nPlease use your McMaster email address.\nPlease put the course code ENVSOCTY 2GI3 in the subject line.\nPlease include your name and student number in the body of the email.\nI will try to reply within 24 hours (please expect longer delays during weekends/holidays).\n\n\nPersonal Website: zehuiyin.github.io\nResearch Interests: Spatial Analysis, Transportation, Travel Behaviour, Public Transit, Shared Mobility"
+  },
+  {
+    "objectID": "2024-Fall/slides/1-intro/index.html#lab-agenda",
+    "href": "2024-Fall/slides/1-intro/index.html#lab-agenda",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Lab agenda",
+    "text": "Lab agenda\n\nI will provide an overview of each assignment.\nI will review the essential skills and knowledge needed to complete the assignment.\nYou will work on the assignment during lab time.\nI will offer hands-on help and answer your questions as you work on your assignment.\nIf you do not finish the assignment during lab time, be prepared to complete it on your own.\nPlease note that attendance will be taken during the lab."
+  },
+  {
+    "objectID": "2024-Fall/slides/1-intro/index.html#lab-slides",
+    "href": "2024-Fall/slides/1-intro/index.html#lab-slides",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Lab slides",
+    "text": "Lab slides\n\n\n\n\n\n\n\nYou can access all the lab slides by scanning the QR code or by visiting the URL directly.\nzehuiyin.github.io/ENVSOCTY2GI3\n\nNext Slides ⇒"
+  },
+  {
+    "objectID": "2024-Fall/slides/12-a6-overview/index.html#assignment-6-overview",
+    "href": "2024-Fall/slides/12-a6-overview/index.html#assignment-6-overview",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Assignment 6 Overview",
+    "text": "Assignment 6 Overview\n\nYou will examine the potential impacts of coastal flooding on Vancouver’s residents, streets, and city properties.\nYou will learn:\n\nHow to use Dissolve tool in ArcGIS Pro.\nHow to intersect feature layers in ArcGIS Pro.\n\nIntersect points with polygons.\nIntersect polylines with polygons.\n\nHow to use the Apportion Polygon tool in ArcGIS Pro."
+  },
+  {
+    "objectID": "2024-Fall/slides/12-a6-overview/index.html#submission-details",
+    "href": "2024-Fall/slides/12-a6-overview/index.html#submission-details",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Submission Details",
+    "text": "Submission Details\n\nThis is a Connect Assignment.\nYou will submit everything on Connect.\nThe deadline is 2:00 PM on November 26.\nDirect all extension requests to the professor.\nIf you seek an accommodation (extension), you must save copies of your answers (e.g., save all your answers in a Word document). Your assignments will be reset with a new deadline, and the existing answers will be cleared."
+  },
+  {
+    "objectID": "2024-Fall/slides/12-a6-overview/index.html#intersection",
+    "href": "2024-Fall/slides/12-a6-overview/index.html#intersection",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Intersection",
+    "text": "Intersection\nIntersection operation is a powerful and frequently used tool in GIS."
+  },
+  {
+    "objectID": "2024-Fall/slides/12-a6-overview/index.html#intersection-1",
+    "href": "2024-Fall/slides/12-a6-overview/index.html#intersection-1",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Intersection",
+    "text": "Intersection"
+  },
+  {
+    "objectID": "2024-Fall/slides/12-a6-overview/index.html#areal-weighted-interpolation",
+    "href": "2024-Fall/slides/12-a6-overview/index.html#areal-weighted-interpolation",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Areal Weighted Interpolation",
+    "text": "Areal Weighted Interpolation\nThe Apportion Polygon tool in ArcGIS Pro essentially conducts extensive areal weighted interpolation.\n \nNext Slides ⇒"
+  },
+  {
+    "objectID": "2024-Fall/slides/7-a2-overview/index.html#assignment-2-overview",
+    "href": "2024-Fall/slides/7-a2-overview/index.html#assignment-2-overview",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Assignment 2 Overview",
+    "text": "Assignment 2 Overview\n\nFor Assignment 2, you will map the COVID-19 vaccination uptakes in Alberta.\nCreate four maps in JPEG format using your own layout files.\nComplete multiple-choice questions and provide short written answers.\nAssignment 2 is available on Connect.\nAll submissions should be done on Connect (e.g., there are upload buttons for each map)\n\nNo need to create a PDF for submission this time."
+  },
+  {
+    "objectID": "2024-Fall/slides/7-a2-overview/index.html#assignment-1-marking",
+    "href": "2024-Fall/slides/7-a2-overview/index.html#assignment-1-marking",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Assignment 1 Marking",
+    "text": "Assignment 1 Marking\n\nI will be responsible for marking your assignments.\nOnly the latest submission will be marked.\n\nNo need to notify me about multiple submissions.\n\nA brief explanation will be provided for each mark deducted.\nMarks will be released after the professor’s review.\nIf you submit a couple of minutes late, there will be no late penalty."
+  },
+  {
+    "objectID": "2024-Fall/slides/7-a2-overview/index.html#policy-reminder",
+    "href": "2024-Fall/slides/7-a2-overview/index.html#policy-reminder",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Policy Reminder",
+    "text": "Policy Reminder\n\nAll extension requests should be directed to the professor.\n\nPlease do not ask me for an extension.\n\nLate assignments are penalized at a rate of 20% for the first day and 10% for each subsequent day they are overdue, including weekends.\nLate assignments will only be graded if submitted no later than three days after the original deadline.\n\nA grade of zero will be assigned after this period.\n\nIf you submit an assignment late, you must notify me that it has been submitted."
+  },
+  {
+    "objectID": "2024-Fall/slides/7-a2-overview/index.html#assignment-1-grade-appeal",
+    "href": "2024-Fall/slides/7-a2-overview/index.html#assignment-1-grade-appeal",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Assignment 1 Grade Appeal",
+    "text": "Assignment 1 Grade Appeal\n\nIf you have concerns about your mark, feel free to email me (yinz39@mcmaster.ca) to discuss.\n\nUse the email subject: ENVSOCTY 2GI3 Assignment 1 Appeal\n\nPartial marks will be awarded where applicable.\nI strive for consistency in grading, especially for written answers.\nUnless there is an error in my mark deduction (e.g., deducting a mark for a missing legend when your map includes one), it is unlikely that marks will be adjusted.\n\nNext Slides ⇒"
+  },
+  {
+    "objectID": "2024-Fall/slides/9-shapefile/index.html#what-is-a-shapefile",
+    "href": "2024-Fall/slides/9-shapefile/index.html#what-is-a-shapefile",
+    "title": "ENVSOCTY 2GI3",
+    "section": "What is a Shapefile",
+    "text": "What is a Shapefile\n\nA geospatial vector data format.\nDeveloped and regulated by Esri as a mostly open specification.\nFirst introduced in the early 1990s.\nIt consists of a series of files with the same name stored in the same directory.\n\nUnlike a Word document, which is a single file per document."
+  },
+  {
+    "objectID": "2024-Fall/slides/9-shapefile/index.html#shapefile-structure",
+    "href": "2024-Fall/slides/9-shapefile/index.html#shapefile-structure",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Shapefile Structure",
+    "text": "Shapefile Structure\n\nIt has three mandatory files:\n\n.shp: Shape format, contains the feature geometry.\n.shx: Shape index format, a positional index of the feature geometry allowing quick seeking.\n.dbf: Attribute format, contains columnar attributes for each shape, in dBase IV format."
+  },
+  {
+    "objectID": "2024-Fall/slides/9-shapefile/index.html#shapefile-structure-1",
+    "href": "2024-Fall/slides/9-shapefile/index.html#shapefile-structure-1",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Shapefile Structure",
+    "text": "Shapefile Structure\n\nOther optional files:\n\n.prj: Projection description\n\nAlthough optional, a shapefile without a projection file cannot be displayed correctly in GIS software.\nYou will work with a shapefile without a projection file in assignment 3.\n\n.sbn, .sbx, …"
+  },
+  {
+    "objectID": "2024-Fall/slides/9-shapefile/index.html#modern-alternatives",
+    "href": "2024-Fall/slides/9-shapefile/index.html#modern-alternatives",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Modern Alternatives",
+    "text": "Modern Alternatives\nGeoPackage:\n\nUses the .gpkg extension.\nAn open, non-proprietary, platform-independent, and standards-based data format for GIS.\nBased on SQLite.\nCan hold multiple vector and raster data layers in a single file.\nInitially released in 2014.\n\nNext Slides ⇒"
+  },
+  {
+    "objectID": "2024-Fall/slides/9-shapefile/index.html#references",
+    "href": "2024-Fall/slides/9-shapefile/index.html#references",
+    "title": "ENVSOCTY 2GI3",
+    "section": "References",
+    "text": "References\n\nhttps://en.wikipedia.org/wiki/Shapefile\nhttps://en.wikipedia.org/wiki/GeoPackage"
+  },
+  {
+    "objectID": "2024-Fall/slides/4-screenshot/index.html#screenshots",
+    "href": "2024-Fall/slides/4-screenshot/index.html#screenshots",
+    "title": "ENVSOCTY 2GI3",
+    "section": "Screenshots",
+    "text": "Screenshots\n\nFor your assignments, you will need to provide some screenshots.\nWhile you might consider using your phone to take a photo of your computer screen, this is not the recommended method.\n\nTaking a photo of your screen can lead to poor image quality and readability issues.\nUnprofessional!"
+  },
+  {
+    "objectID": "2024-Fall/slides/4-screenshot/index.html#how-to-take-a-screenshot",
+    "href": "2024-Fall/slides/4-screenshot/index.html#how-to-take-a-screenshot",
+    "title": "ENVSOCTY 2GI3",
+    "section": "How to Take a Screenshot?",
+    "text": "How to Take a Screenshot?\n\nClick on the Search tab in the Taskbar.\nType Snipping Tool in the search bar.\nIn the Snipping Tool window, click on the New button to start capturing a screenshot.\nDrag your mouse to select the area you want to capture (the default mode is rectangular).\nFinally, save the screenshot by clicking the Save As button or copy it by clicking the Copy button.\n\nNext Slides ⇒"
+  }
+]
