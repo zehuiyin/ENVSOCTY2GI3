@@ -1,0 +1,110 @@
+---
+format: 
+  revealjs:
+    pagetitle: "Transformation Warning"
+    menu: false
+    footer: "2024 Zehui Yin"
+---
+
+## What does transformation warning mean?
+
+:::: {.columns}
+
+::: {.column width="30%"}
+```{=html}
+<p>
+<img src="./images/warning-1.png"/>
+<img src="./images/warning-2.png"/>
+<p>
+```
+:::
+
+::: {.column width="70%"}
+::: {style="font-size: 0.95em;"}
+- Upon reopening your Assignment 1 project after completing the insert map portion, you encounter a transformation warning.
+
+- The _projection-on-the-fly_ feature in ArcGIS Pro is not functioning correctly.
+
+- This results in different layers being misaligned on the map.
+
+- The misalignment can range from several centimetres to several metres.
+:::
+:::
+
+::::
+
+## What is causing this?
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+```{=html}
+<p>
+<img src="./images/warning-3.png"/>
+<p>
+```
+
+:::
+
+::: {.column width="60%"}
+
+- The projection used by the insert map differs from the World Imagery (Firefly) projection.
+
+- The Customized World from Space projection $\neq$ WGS 1984 Web Mercator (auxiliary sphere).
+
+- ArcGIS Pro does not recognize an existing transformation path between these projections.
+
+:::
+
+::::
+
+## What to do?
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+- Ignore the warning message:
+  - The preferred approach for now.
+  - We are only creating maps.
+  - The study area is large.
+  - Location accuracy is not a major concern.
+  - A few meters of offset is not significant.
+
+:::
+
+::: {.column width="40%"}
+
+- Other solutions to consider:
+  - Ensure all layers in the map use the same projection.
+  - Find or create an appropriate transformation method.
+
+:::
+
+::::
+
+```{=html}
+<a href="../7-a2-overview/index.html" class="button" style="font-size: 0.5em;">Next Slides	&rArr;</a>
+
+<style>
+  a.button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  a.button:hover {
+    background-color: #0056b3;
+  }
+</style>
+```
+
+## Reference
+
+- [https://www.esri.com/arcgis-blog/products/arcgis-pro/mapping/transformation-warning/](https://www.esri.com/arcgis-blog/products/arcgis-pro/mapping/transformation-warning/)

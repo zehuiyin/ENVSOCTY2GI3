@@ -1,0 +1,49 @@
+---
+format: 
+  revealjs:
+    pagetitle: "Assignment 7 Overview"
+    menu: false
+    footer: "2024 Zehui Yin"
+---
+
+## Assignment 7 Overview
+
+- You will conduct a suitability analysis to identify the potential sites for wine industry in Nova Scotia.
+- You will learn:
+  - How to obtain basic information for raster data, including value statistics, projection, cell size, etc.
+  - How to compute slope and aspect using DEM data in ArcGIS Pro.
+  - How to create boolean rasters.
+  - How to perform raster calculations/suitability analysis.
+
+## Submission Details
+
+- This is a <u>Connect Assignment</u>.
+- You will submit everything on Connect.
+- The deadline is 2:00 PM on **December 3**.
+- Direct all extension requests to the professor.
+- If you seek an accommodation (extension), you **must** save copies of your answers (e.g., save all your answers in a Word document). Your assignments will be reset with a new deadline, and the existing answers will be cleared.
+
+## Logistics
+
+- This is the **final** assignment for this course.
+- This is also the last lab session for this semester.
+- There will be **no** lab next week.
+- You can still reach me via email after this lab if you have any further questions.
+
+## Rasters
+
+:::{style="text-align: center;"}
+![](./matrix.png){width="60%"}
+:::
+
+## Raster Operation
+
+:::{style="text-align: center;"}
+![](./matrix_op.png){width="60%"}
+:::
+
+## Suitability Analysis
+
+:::{style="text-align: center;"}
+![](./suitability.png){width="100%"}
+:::

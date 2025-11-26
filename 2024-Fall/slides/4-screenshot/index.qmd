@@ -1,0 +1,43 @@
+---
+format: 
+  revealjs:
+    pagetitle: "How to take a screenshot?"
+    menu: false
+    footer: "2024 Zehui Yin"
+---
+
+## Screenshots
+
+- For your assignments, you will need to provide some screenshots.
+- While you might consider using your phone to take a photo of your computer screen, this is not the recommended method.
+  - Taking a photo of your screen can lead to _poor_ image quality and readability issues.
+  - __Unprofessional!__
+
+## How to Take a Screenshot?
+
+- Click on the `Search` tab in the Taskbar.
+- Type `Snipping Tool` in the search bar.
+- In the Snipping Tool window, click on the `New` button to start capturing a screenshot.
+- Drag your mouse to select the area you want to capture (the default mode is rectangular).
+- Finally, save the screenshot by clicking the `Save As` button or copy it by clicking the `Copy` button.
+
+```{=html}
+<a href="../5-folder-structure/index.html" class="button" style="font-size: 0.5em;">Next Slides	&rArr;</a>
+
+<style>
+  a.button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  a.button:hover {
+    background-color: #0056b3;
+  }
+</style>
+```

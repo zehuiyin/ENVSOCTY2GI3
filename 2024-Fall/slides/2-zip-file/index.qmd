@@ -1,0 +1,118 @@
+---
+format: 
+  revealjs:
+    pagetitle: "How to (un)zip a file?"
+    menu: false
+    footer: "2024 Zehui Yin"
+---
+
+## What is a zip file?
+
+```{=html}
+<p>
+<img src="./images/zip-icon.png" style="vertical-align: bottom; height: 2em;"/> Default icon of zip file in Windows 11
+<p>
+```
+
+- Zip is an archive file format that supports lossless data compression.
+- Zip file may contain one or more files or directories that may have been compressed.
+- Zip files generally use the file extensions `.zip` or `.ZIP`.
+- They cannot be directly used by GIS software such as ArcGIS Pro.
+
+## How to zip a File (Method 1)
+
+:::: {.columns}
+
+::: {.column width="40%"}
+```{=html}
+<p>
+<img src="./images/zip1.png"/>
+<p>
+```
+:::
+
+::: {.column width="60%"}
+- Right-click on the file you want to zip such as a word document.
+
+- Select `Compress to...` and then choose `ZIP File`.
+:::
+
+::::
+
+## How to zip a File (Method 2)
+:::: {.columns}
+
+::: {.column width="40%"}
+```{=html}
+<p>
+<img src="./images/zip2.png"/>
+<img src="./images/zip3.png" style="height: 3em;"/>
+<p>
+```
+:::
+
+::: {.column width="60%"}
+
+- Right-click and select `New`.
+
+- Choose `Compressed (zipped) Folder`.
+
+- Drag the files you want to zip into this new zipped folder.
+:::
+
+::::
+
+## How to unzip a file
+
+:::: {.columns}
+
+::: {.column width="40%"}
+```{=html}
+<p>
+<img src="./images/zip4.png" style="height: 10em;"/>
+<img src="./images/zip5.png" style="height: 3em;"/>
+<img src="./images/zip6.png" style="height: 3em;"/>
+<p>
+```
+:::
+
+::: {.column width="60%"}
+
+- Right-click on the zip file.
+
+- Select `Extract All...`.
+
+- Choose the destination location (you can use the default).
+
+- Click `Extract`.
+
+```{=html}
+<a href="../3-portable-gis/index.html" class="button" style="font-size: 0.5em;">Next Slides	&rArr;</a>
+
+<style>
+  a.button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  a.button:hover {
+    background-color: #0056b3;
+  }
+</style>
+```
+
+:::
+
+::::
+
+## References
+
+- [https://en.wikipedia.org/wiki/ZIP_(file_format)](https://en.wikipedia.org/wiki/ZIP_(file_format))
+
+- [https://support.microsoft.com/en-us/windows/zip-and-unzip-files-f6dde0a7-0fec-8294-e1d3-703ed85e7ebc](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-f6dde0a7-0fec-8294-e1d3-703ed85e7ebc)

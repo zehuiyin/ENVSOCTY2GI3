@@ -1,0 +1,63 @@
+---
+format: 
+  revealjs:
+    pagetitle: "Assignment 2 Overview"
+    menu: false
+    footer: "2024 Zehui Yin"
+---
+
+## Assignment 2 Overview
+
+- For Assignment 2, you will map the COVID-19 vaccination uptakes in Alberta.
+- Create four maps in __JPEG__ format using your own layout files.
+- Complete multiple-choice questions and provide short written answers.
+- Assignment 2 is available on __Connect__.
+- All submissions should be done on Connect (e.g., there are upload buttons for each map)
+  - No need to create a PDF for submission this time.
+
+## Assignment 1 Marking
+
+- __I__ will be responsible for marking your assignments.
+- Only the __latest__ submission will be marked.
+  - No need to notify me about multiple submissions.
+- A brief explanation will be provided for each mark deducted.
+- Marks will be released after the professor’s review.
+- If you submit __a couple of minutes__ late, there will be no late penalty.
+
+## Policy Reminder
+
+- All extension requests should be directed to the professor.
+  - Please do __not__ ask me for an extension.
+- Late assignments are penalized at a rate of <u>20% for the first day</u> and <u>10% for each subsequent day</u> they are overdue, including weekends.
+- Late assignments will only be graded if submitted __no later than three days__ after the original deadline.
+  - A grade of __zero__ will be assigned after this period.
+- If you submit an assignment late, you __must__ notify me that it has been submitted.
+
+## Assignment 1 Grade Appeal
+
+- If you have concerns about your mark, feel free to __email__ me ([yinz39@mcmaster.ca](mailto:yinz39@mcmaster.ca)) to discuss.
+  - Use the email subject: _ENVSOCTY 2GI3 Assignment 1 Appeal_
+- Partial marks will be awarded where applicable.
+- I strive for consistency in grading, especially for written answers.
+- Unless there is an error in my mark deduction (e.g., deducting a mark for a missing legend when your map includes one), it is unlikely that marks will be adjusted.
+
+```{=html}
+<a href="../8-a1-marks/index.html" class="button" style="font-size: 0.5em;">Next Slides	&rArr;</a>
+
+<style>
+  a.button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  a.button:hover {
+    background-color: #0056b3;
+  }
+</style>
+```

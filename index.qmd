@@ -1,0 +1,72 @@
+---
+title: "ENVSOCTY 2GI3 Lab Website"
+subtitle: "Geographic Information Systems"
+format: html
+---
+
+```{=html}
+<style>
+  #quarto-sidebar {
+    display: none !important;
+  }
+  
+  .quarto-secondary-nav {
+    display: none !important;
+  }
+</style>
+```
+
+# Course Content
+
+This course is an introduction to Geographic Information Science, focusing on how to work with common GIS data such as vectors and rasters, as well as map making, basic spatial analysis, and descriptive statistics using ArcGIS Pro. Each week, during the lab sessions, we will work through case studies based on real-world data, such as the Canadian Census, and learn how to apply the methods learned in the course using GIS software.
+
+# Teaching Assistant
+
+![](./images/Headshot_square.png){fig-align="left" style="object-fit: cover;width:5em;height:5em;border-radius: 50%;"}<br/>
+**[Zehui Yin](https://zehuiyin.github.io)**[[{{< fa brands orcid >}}]{style="color:#A6CE39"}](https://orcid.org/0000-0001-6954-7918)<br/>
+Geography PhD Student<br/>
+School of Earth, Environment & Society<br/>
+McMaster University<br/>
+{{< fa envelope >}} [yinz39@mcmaster.ca](mailto:yinz39@mcmaster.ca)
+
+## Select Academic Year/Term:
+
+```{=html}
+<style>
+  #current {
+    background-color: #4bbf73;
+    color: black;
+    padding: 10px 20px; /* Add some padding */
+    border: none; /* Remove border */
+    border-radius: 5px;
+    cursor: pointer; /* Add a pointer cursor on hover */
+  }
+
+  #current:hover {
+    background-color: #215f37;
+  }
+</style>
+```
+
+[<button type="button" id="current">2024 Fall</button>](./2024-Fall/index.html)
+
+## Archive:
+
+```{=html}
+<style>
+  #previous {
+    background-color: #f0ad4e;
+    color: black;
+    padding: 10px 20px; /* Add some padding */
+    border: none; /* Remove border */
+    border-radius: 5px;
+    cursor: pointer; /* Add a pointer cursor on hover */
+  }
+
+  #previous:hover {
+    background-color: #6d4e24;
+  }
+</style>
+```
+
+[<button type="button" id="previous">2024 Fall</button>](./2024-Fall/index.html)

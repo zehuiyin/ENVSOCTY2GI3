@@ -1,0 +1,84 @@
+---
+format: 
+  revealjs:
+    pagetitle: "Zehui Yin Introduction"
+    menu: false
+    footer: "2024 Zehui Yin"
+---
+
+##
+
+<div style="text-align: center;">
+  <b style="font-size: 68px;">Zehui Yin</b>
+  <br>
+  First-year PhD Student in Geography at SEES
+</div>
+
+- **Email:** [yinz39@mcmaster.ca](mailto:yinz39@mcmaster.ca)
+<div style="font-size: 30px;">
+  - Please use your McMaster email address.
+  - Please put the course code *ENVSOCTY 2GI3* in the subject line.
+  - Please include your name and student number in the body of the email.
+  - I will try to reply within 24 hours (please expect longer delays during weekends/holidays).
+</div>
+- **Personal Website:** [zehuiyin.github.io](https://zehuiyin.github.io/)
+- **Research Interests:** Spatial Analysis, Transportation, Travel Behaviour, Public Transit, Shared Mobility
+
+## Lab agenda
+
+- I will provide an overview of each assignment.
+
+- I will review the essential skills and knowledge needed to complete the assignment.
+
+- You will work on the assignment during lab time.
+
+- I will offer hands-on help and answer your questions as you work on your assignment.
+
+- If you do not finish the assignment during lab time, be prepared to complete it on your own.
+
+- Please note that attendance will be taken during the lab.
+
+## Lab slides
+
+:::: {.columns}
+
+::: {.column width="35%"}
+
+```{=html}
+<p>
+<img src="./images/qr_code.png" style="width:100%;"/>
+</p>
+```
+
+:::
+
+::: {.column width="65%"}
+
+- You can access all the lab slides by scanning the QR code or by visiting the URL directly.
+
+- [zehuiyin.github.io/ENVSOCTY2GI3](https://zehuiyin.github.io/ENVSOCTY2GI3/)
+
+```{=html}
+<a href="../2-zip-file/index.html" class="button" style="font-size: 0.5em;">Next Slides	&rArr;</a>
+
+<style>
+  a.button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  a.button:hover {
+    background-color: #0056b3;
+  }
+</style>
+```
+
+:::
+
+::::

@@ -1,0 +1,104 @@
+---
+title: "Materials"
+---
+
+Some of the slides I used in class are only available on [Avenue to Learn](https://avenue.mcmaster.ca/).
+
+```{=html}
+<table><thead>
+  <tr>
+    <th>Assignment</th>
+    <th>Week</th>
+    <th>Section</th>
+    <th>Slides</th>
+    <th>PDF&nbsp;</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td rowspan="6">1</td>
+    <td rowspan="4">3</td>
+    <td>Introduction</td>
+    <td><a href="./slides/1-intro/index.html">HTML</a></td>
+    <td><a href="./slides/1-intro/Zehui Yin Introduction.pdf">PDF</a></td>
+  </tr>
+  <tr>
+    <td>How to (un)zip a file?</td>
+    <td><a href="./slides/2-zip-file/index.html">HTML</a></td>
+    <td><a href="./slides/2-zip-file/How to (un)zip a file.pdf">PDF</a></td>
+  </tr>
+  <tr>
+    <td>How to make a portable GIS project?</td>
+    <td><a href="./slides/3-portable-gis/index.html">HTML</a></td>
+    <td><a href="./slides/3-portable-gis/How to make a portable GIS project.pdf">PDF</a></td>
+  </tr>
+  <tr>
+    <td>How to take a screenshot?</td>
+    <td><a href="./slides/4-screenshot/index.html">HTML</a></td>
+    <td><a href="./slides/4-screenshot/How to take a screenshot.pdf">PDF</a></td>
+  </tr>
+  <tr>
+    <td rowspan="2">4</td>
+    <td>GIS project folder structure</td>
+    <td><a href="./slides/5-folder-structure/index.html">HTML</a></td>
+    <td><a href="./slides/5-folder-structure/GIS project folder structure.pdf">PDF</a></td>
+  </tr>
+  <tr>
+    <td>Transformation warning</td>
+    <td><a href="./slides/6-transform-warning/index.html">HTML</a></td>
+    <td><a href="./slides/6-transform-warning/Transformation warning.pdf">PDF</a></td>
+  </tr>
+  <tr>
+    <td rowspan="2">2</td>
+    <td>5</td>
+    <td>Assignment 2 overview</td>
+    <td><a href="./slides/7-a2-overview/index.html">HTML</a></td>
+    <td><a href="./slides/7-a2-overview/Assignment 2 Overview.pdf">PDF</a></td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Assignment 1 marks</td>
+    <td><a href="./slides/8-a1-marks/index.html">HTML</a></td>
+    <td><a href="./slides/8-a1-marks/Assignment 1 Marks.pdf">PDF</a></td>
+  </tr>
+  <tr>
+    <td rowspan="2">3</td>
+    <td>7</td>
+    <td>What is a Shapefile?</td>
+    <td><a href="./slides/9-shapefile/index.html">HTML</a></td>
+    <td><a href="./slides/9-shapefile/What is a Shapefile.pdf">PDF</a></td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Continue working on assignment 3</td>
+    <td colspan="2">No slides for this week</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>9</td>
+    <td>Assignment 4 overview and table join</td>
+    <td><a href="./slides/10-a4-overview/index.html">HTML</a></td>
+    <td><a href="./slides/10-a4-overview/Assignment 4 Overview.pdf">PDF</a></td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>10</td>
+    <td>Assignment 5 overview, query builder, buffer, and clip</td>
+    <td><a href="./slides/11-a5-overview/index.html">HTML</a></td>
+    <td><a href="./slides/11-a5-overview/Assignment 5 Overview.pdf">PDF</a></td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>11</td>
+    <td>Assignment 6 overview, intersection, and areal weighted interpolation</td>
+    <td><a href="./slides/12-a6-overview/index.html">HTML</a></td>
+    <td><a href="./slides/12-a6-overview/Assignment 6 Overview.pdf">PDF</a></td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>12</td>
+    <td>Assignment 7 overview, raster, and suitability analysis</td>
+    <td><a href="./slides/13-a7-overview/index.html">HTML</a></td>
+    <td><a href="./slides/13-a7-overview/Assignment 7 Overview.pdf">PDF</a></td>
+  </tr>
+</tbody></table>
+```

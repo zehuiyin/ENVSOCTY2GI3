@@ -1,0 +1,86 @@
+---
+format: 
+  revealjs:
+    pagetitle: "Assignment 5 Overview"
+    menu: false
+    footer: "2024 Zehui Yin"
+---
+
+## Assignment 5 Overview
+
+- You will examine crimes in Toronto using open data from Ontario and the City of Toronto.
+- You will learn:
+  - How to use the interactive query builder (`Select By Attributes`) to construct SQL queries in ArcGIS Pro.
+  - How to create buffers in ArcGIS Pro.
+  - How to clip a layer in ArcGIS Pro.
+  - How to remove duplicate records in a feature layer in ArcGIS Pro.
+
+## Submission Details
+
+- This is a <u>Connect Assignment</u>.
+- You will submit everything on Connect.
+- The deadline is 2:00 PM on **November 19**.
+- Direct all extension requests to the professor.
+- If you seek an accommodation (extension), you **must** save copies of your answers (e.g., save all your answers in a Word document). Your assignments will be reset with a new deadline, and the existing answers will be cleared.
+
+## `Select By Attributes` Tool
+
+:::{style="text-align: center;"}
+![](./select_attribute1.png){height=250px}
+:::
+
+You can find the `Select By Attributes` tool in the attribute table of a specific feature layer.
+
+Note that you should click the tool button in the feature layer that you want to subset or select. Otherwise, you will need to manually adjust the `Input Rows`.
+
+## SQL Expression
+
+:::{style="text-align: center;"}
+![](./select_attribute2.png){height=250px}
+![](./select_attribute3.png){height=250px}
+:::
+
+After you interactively constructed the query, you can access the corresponding SQL expression by turning on the SQL mode.
+
+Structured Query Language (SQL) is a language used to manage data in a relational database management system.
+
+## Buffer
+
+:::{style="text-align: center;"}
+![](./buffer.png){height=280px}
+:::
+
+The black geometries are buffered, resulting in the orange geometries.
+
+The green lines represent equal distances.
+
+## Clip
+
+:::{style="text-align: center;"}
+![](./clip.png){height=280px}
+:::
+
+The orange circle is clipped by the black circle.
+
+The orange geometry is then modified.
+
+```{=html}
+<a href="../12-a6-overview/index.html" class="button" style="font-size: 0.5em;">Next Slides	&rArr;</a>
+
+<style>
+  a.button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  a.button:hover {
+    background-color: #0056b3;
+  }
+</style>
+```

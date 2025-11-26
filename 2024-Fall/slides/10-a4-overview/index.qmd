@@ -1,0 +1,70 @@
+---
+format: 
+  revealjs:
+    pagetitle: "Assignment 4 Overview"
+    menu: false
+    footer: "2024 Zehui Yin"
+---
+
+## Assignment 4 Overview
+
+- You will examine population changes in Montreal, QC using Canadian Census data.
+- You will learn:
+  - How to import Excel files into ArcGIS Pro.
+  - How to join tables (simple one-to-one join) in ArcGIS Pro.
+  - How to create pivot tables in ArcGIS Pro.
+  - How to create side-by-side bar charts in ArcGIS Pro.
+
+## Submission Details
+
+- This is a <u>Connect Assignment</u>.
+- You will submit everything on Connect.
+- The deadline is 2:00 PM on **November 12**.
+- Direct all extension requests to the professor.
+- If you seek an accommodation (extension), you **must** save copies of your answers (e.g., save all your answers in a Word document). Your assignments will be reset with a new deadline, and the existing answers will be cleared.
+
+## Table Join
+
+- Simple one-to-one join:
+  - We have two (attribute) tables with the same number of rows.
+    - These can be attribute tables from a feature layer or standalone (non-spatial) tables.
+  - Both tables have a common key column containing IDs for each record.
+  - Each unique ID in the left table corresponds one-to-one with a record in the right table.
+
+## Simple one-to-one join
+
+:::{style="text-align: center;"}
+![](./join.png){height=550px}
+:::
+
+## Question Revision
+
+Which tool(s) can be used to import an Excel workbook sheet into a geodatabase?
+
+A.  Only the Excel To Table tool
+B.  Only the **Export Table** tool
+C.  Excel To Table and **Export Table**
+D.  Excel To Table and Table To Excel
+
+*__Table to Table__ tool has been replaced with a new tool called __Export Table__. Both tools have the same functionality.*
+
+```{=html}
+<a href="../11-a5-overview/index.html" class="button" style="font-size: 0.5em;">Next Slides	&rArr;</a>
+
+<style>
+  a.button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  a.button:hover {
+    background-color: #0056b3;
+  }
+</style>
+```

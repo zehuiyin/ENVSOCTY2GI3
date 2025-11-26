@@ -1,0 +1,99 @@
+---
+format: 
+  revealjs:
+    pagetitle: "How to make a portable GIS project?"
+    menu: false
+    footer: "2024 Zehui Yin"
+---
+
+## How to create a project in ArcGIS Pro
+
+:::: {.columns}
+
+::: {.column width="60%"}
+```{=html}
+<p>
+<img src="./images/portable-1.png"/>
+<img src="./images/portable-2.png" style="height: 3em;"/>
+<img src="./images/portable-3.png"/>
+<p>
+```
+:::
+
+::: {.column width="40%"}
+
+- Click the `Map` tab below the New Project heading.
+
+- Set a name and choose a location for the project, then click `OK`.
+
+- A new folder will be created.
+
+:::
+::::
+
+## How to open a project in ArcGIS Pro
+
+```{=html}
+<p>
+<img src="./images/portable-4.png"/>
+<p>
+```
+
+- Double-click to open the new project folder.
+
+- Double-click the file with the `.aprx` extension.
+
+- This will open ArcGIS Pro.
+
+## How to transfer project across computers
+
+- Ensure you are using the same version of ArcGIS Pro on both computers.
+
+- Transfer the entire project folder, including all its contents, to the other computer.
+  - Do not copy only the `aprx` file.
+  
+## Why need the whole folder?
+
+:::: {.columns}
+
+::: {.column width="50%"}
+- `ImportLog`: A folder that contains `XML` files storing log messages.
+
+- `Index`: A folder that contains map thumbnails and keeps track of items stored in the project file.
+
+- `.gdb`: A geodatabase where data is stored by default.
+:::
+
+::: {.column width="50%"}
+- `.aprx`: An ArcGIS project file that contains maps and print layouts.
+
+- `.atbx`: The default toolbox.
+
+- Additional folders or files may be created when certain operations or tasks are performed in the project.
+:::
+::::
+
+```{=html}
+<a href="../4-screenshot/index.html" class="button" style="font-size: 0.5em;">Next Slides	&rArr;</a>
+
+<style>
+  a.button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  a.button:hover {
+    background-color: #0056b3;
+  }
+</style>
+```
+
+## Reference
+
+- [https://pro.arcgis.com/en/pro-app/latest/help/projects/what-is-a-project.htm](https://pro.arcgis.com/en/pro-app/latest/help/projects/what-is-a-project.htm)

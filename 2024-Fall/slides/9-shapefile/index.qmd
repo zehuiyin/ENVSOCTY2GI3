@@ -1,0 +1,66 @@
+---
+format: 
+  revealjs:
+    pagetitle: "What is a Shapefile?"
+    menu: false
+    footer: "2024 Zehui Yin"
+---
+
+## What is a Shapefile
+
+- A geospatial *vector* data format.
+- Developed and regulated by *Esri* as a mostly open specification.
+- First introduced in the early 1990s.
+- It consists of <u>a series of files</u> with the same name stored in the same directory.
+  - Unlike a Word document, which is a single file per document.
+
+## Shapefile Structure
+
+- It has three mandatory files:
+  - `.shp`: Shape format, contains the feature geometry.
+  - `.shx`: Shape index format, a positional index of the feature geometry allowing quick seeking.
+  - `.dbf`: Attribute format, contains columnar attributes for each shape, in dBase IV format.
+  
+## Shapefile Structure
+
+- Other optional files:
+  - `.prj`: Projection description
+    - Although optional, a shapefile without a projection file cannot be displayed correctly in GIS software.
+    - You will work with a shapefile without a projection file in assignment 3.
+  - `.sbn`, `.sbx`, ...
+
+## Modern Alternatives
+
+GeoPackage:
+
+- Uses the `.gpkg` extension.
+- An open, non-proprietary, platform-independent, and standards-based data format for GIS.
+- Based on SQLite.
+- Can hold multiple vector and raster data layers in a single file.
+- Initially released in 2014.
+
+```{=html}
+<a href="../10-a4-overview/index.html" class="button" style="font-size: 0.5em;">Next Slides	&rArr;</a>
+
+<style>
+  a.button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  a.button:hover {
+    background-color: #0056b3;
+  }
+</style>
+```
+
+## References
+
+- <https://en.wikipedia.org/wiki/Shapefile>
+- <https://en.wikipedia.org/wiki/GeoPackage>

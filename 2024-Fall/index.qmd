@@ -1,0 +1,23 @@
+---
+title: "ENVSOCTY 2GI3 Lab 1 & 2"
+subtitle: "2024 Fall"
+format: html
+---
+
+Welcome to the website for ENVSOCTY 2GI3 Lab 1 & 2 for the Fall 2024 semester at
+McMaster University. You can access all the slides used during the lab sessions
+in the Materials tab.
+
+# Teaching Assistant
+
+![](../images/Headshot_square.png){fig-align="left" style="object-fit: cover;width:5em;height:5em;border-radius: 50%;"}<br/>
+**[Zehui Yin](https://zehuiyin.github.io)**[[{{< fa brands orcid >}}]{style="color:#A6CE39"}](https://orcid.org/0000-0001-6954-7918)<br/>
+Geography PhD Student<br/>
+School of Earth, Environment & Society<br/>
+McMaster University<br/>
+{{< fa envelope >}} [yinz39@mcmaster.ca](mailto:yinz39@mcmaster.ca)
+
+# Lab Time
+
+Lab 1 Thursday 4:30 PM – 6:20 PM<br/>
+Lab 2 Thursday 10:30 AM – 12:20 PM
