@@ -25,28 +25,28 @@ Some of the slides I used in class are only available on [Avenue to Learn](https
   <tr>
     <td>How to (un)zip a file?</td>
     <td><a href="./slides/2-zip-file/index.html">HTML</a></td>
-    <td><a href="./slides/2-zip-file/How to (un)zip a file.pdf">PDF</a></td>
+    <td><a href="./slides/2-zip-file/How to (Un)zip a File.pdf">PDF</a></td>
   </tr>
   <tr>
     <td>How to make a portable GIS project?</td>
     <td><a href="./slides/3-portable-gis/index.html">HTML</a></td>
-    <td><a href="./slides/3-portable-gis/How to make a portable GIS project.pdf">PDF</a></td>
+    <td><a href="./slides/3-portable-gis/How to Make a Portable GIS Project.pdf">PDF</a></td>
   </tr>
   <tr>
     <td>How to take a screenshot?</td>
     <td><a href="./slides/4-screenshot/index.html">HTML</a></td>
-    <td><a href="./slides/4-screenshot/How to take a screenshot.pdf">PDF</a></td>
+    <td><a href="./slides/4-screenshot/How to Take a Screenshot.pdf">PDF</a></td>
   </tr>
   <tr>
     <td rowspan="2">4</td>
     <td>GIS project folder structure</td>
     <td><a href="./slides/5-folder-structure/index.html">HTML</a></td>
-    <td><a href="./slides/5-folder-structure/GIS project folder structure.pdf">PDF</a></td>
+    <td><a href="./slides/5-folder-structure/GIS Project Folder Structure.pdf">PDF</a></td>
   </tr>
   <tr>
     <td>Transformation warning</td>
     <td><a href="./slides/6-transform-warning/index.html">HTML</a></td>
-    <td><a href="./slides/6-transform-warning/Transformation warning.pdf">PDF</a></td>
+    <td><a href="./slides/6-transform-warning/Transformation Warning.pdf">PDF</a></td>
   </tr>
   <tr>
     <td rowspan="2">2</td>
